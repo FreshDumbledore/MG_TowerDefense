@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<unit-particle-system>
+    <!-- this is the main stuff we change -->
+        <size value="0.3" /> <!-- how big it is -->
+        <emission-rate value="20" /> <!-- more == more defined -->
+    <radius value="2.4"/> <!-- how much wobble there is -->
+    <offset x="0" y="-1" z="0"/> <!-- y is the up/down so -1 means the sphere of the particle effect is slightly in the ground, given the total size is 5 -->
+    <color red="0.0" green="0.1" blue="0.0" alpha="1" />
+    <color-no-energy red="1.0" green="1.0" blue="0.1" alpha="0.0" /> <!-- unit shield fades to red when it dies; untested -->
+        <texture value="true" path="particle.bmp" luminance="true" />
+
+        <!-- this is all stuff you don't really change -->
+    <direction x="0" y="0" z="0"/>
+    <relative value="false"/>
+    <fixed value="true"/>
+        <model value="false"/>
+    <primitive value="quad"/>
+        <size-no-energy value="2" />
+        <speed value="0.0" />
+    <gravity value="0.0"/>
+        <energy-max value="0" />
+        <energy-var value="0" />
+</unit-particle-system>

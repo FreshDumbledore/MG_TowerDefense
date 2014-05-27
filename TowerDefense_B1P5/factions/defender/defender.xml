@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="3000"/>
+		<resource name="wood" amount="3000"/>
+		<resource name="stone" amount="1000"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="beehive" amount="1"/>
+		<unit name="defense_tower" amount="1"/>
+		<unit name="pyramid" amount="1"/>
+		<unit name="snake_basket" amount="1"/>
+		<unit name="slave" amount="9"/>
+	</starting-units>
+	<music value="true" path="music/asak-jadeflange.ogg"/>
+</faction>
