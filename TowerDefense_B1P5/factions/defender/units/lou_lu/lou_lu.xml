@@ -7,7 +7,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="5"/>	
-		<armor-type value="wood"/>			
+		<armor-type value="building"/>			
 		<sight value="16"/>
 		<time value="180"/>	
 		<multi-selection value="false"/>
@@ -115,7 +115,7 @@
 			<attack-strenght value="220"/>
 			<attack-var value="30"/>
 			<attack-range value="10"/>
-			<attack-type value="piercing"/>
+			<attack-type value="defender"/>
 			<attack-start-time value="0.1"/>
 			<attack-fields>
 				<field value="land"/>

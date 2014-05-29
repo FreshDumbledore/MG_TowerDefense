@@ -7,7 +7,7 @@
 		<max-hp value="8000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="32" />
-		<armor-type value="stone"/>
+		<armor-type value="building"/>
 		<sight value="15" />
 		<time value="300" />
 		<multi-selection value="false" />
@@ -80,7 +80,7 @@
 			<attack-strenght value="255"/>
 			<attack-var value="25"/>
 			<attack-range value="14"/>
-			<attack-type value="energy"/>
+			<attack-type value="defender"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
 				<field value="land"/>
