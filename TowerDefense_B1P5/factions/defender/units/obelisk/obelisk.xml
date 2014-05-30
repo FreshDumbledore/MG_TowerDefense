@@ -6,7 +6,7 @@
 		<height value="5" />
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
-		<armor value="20" />
+		<armor value="30" />
 		<armor-type value="building"/>		
 		<sight value="14" />
 		<time value="250" />
@@ -30,13 +30,13 @@
 			<upgrade name="level_4_towers"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="600" />
+			<resource name="gold" amount="800" />
 			<resource name="stone" amount="400" />
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
 		<image path="images/obelisk.bmp"/>
-		<image-cancel path="../ultimate_tower/images/cancel.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
@@ -102,7 +102,7 @@
 			</sound>
 			<attack-strenght value="220"/>
 			<attack-var value="25"/>
-			<attack-range value="11"/>
+			<attack-range value="12"/>
 			<attack-type value="defender"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
@@ -119,7 +119,7 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="4"/>
+				<radius value="2"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
@@ -146,7 +146,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="attack_off"/>
-			<image path="../ultimate_tower/images/attack_off.bmp"/>
+			<image path="../../icons/attack_off.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -155,7 +155,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="attack_on"/>
-			<image path="../ultimate_tower/images/attack_on.bmp"/>
+			<image path="../../icons/attack_on.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>

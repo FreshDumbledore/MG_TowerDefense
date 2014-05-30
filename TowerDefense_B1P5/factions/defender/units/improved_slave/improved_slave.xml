@@ -27,8 +27,8 @@
 			<resource name="gold" amount="75"/>		
 		</resource-requirements>
 		<resources-stored/>
-		<image path="../slave/images/worker.bmp"/>
-		<image-cancel path="../ultimate_tower/images/cancel.bmp"/>
+		<image path="images/worker.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/worker_select1.wav"/>
@@ -120,7 +120,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../air_pyramid/images/tech_stop.bmp"/>
+			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -129,7 +129,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="../ultimate_tower/images/cancel.bmp"/>
+			<image path="../../icons/cancel.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -138,7 +138,7 @@
 		<command>
 			<type value="build"/>
 			<name value="build_level_1"/>
-			<image path="../slave/images/worker_build_1.bmp"/>
+			<image path="../../icons/build_1.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -165,7 +165,7 @@
 <command>
 			<type value="build"/>
 			<name value="build_level_2"/>
-			<image path="../slave/images/worker_build_2.bmp"/>
+			<image path="../../icons/build_2.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 				<upgrade name="level_2_towers"/>
@@ -190,7 +190,7 @@
 		<command>
 			<type value="build"/>
 			<name value="build_level_3"/>
-			<image path="../slave/images/worker_build_3.bmp"/>
+			<image path="../../icons/build_3.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 				<upgrade name="level_3_towers"/>
@@ -215,7 +215,7 @@
 		<command>
 			<type value="build"/>
 			<name value="build_level_4"/>
-			<image path="../slave/images/worker_build_4.bmp"/>
+			<image path="../../icons/build_4.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 				<upgrade name="level_4_towers"/>
@@ -239,7 +239,7 @@
 		<command>
 			<type value="build"/>
 			<name value="build_antiair"/>
-			<image path="../slave/images/worker_build_aa.bmp"/>
+			<image path="../../icons/build_aa.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 			</upgrade-requirements>
@@ -248,6 +248,8 @@
 			<buildings>
 				<building name="air_pyramid"/>
 				<building name="eagle_pillar"/>
+				<building name="totem"/>
+				<building name="mistletree"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -260,7 +262,7 @@
 		<command>
 			<type value="repair"/>
 			<name value="repair"/>
-			<image path="../slave/images/worker_repair.bmp"/>
+			<image path="../../icons/repair.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -280,44 +282,13 @@
 				<unit name="killerbeehive"/>	
                                 <unit name="laser_turret"/>
                                 <unit name="lou_lu"/>
-                                <unit name="obelisk"/>
-                                <unit name="snake_basket"/>					
-				<unit name="sphinx"/>	
-				<unit name="temple"/>	
-				<unit name="ultimate_tower"/>	
-				<unit name="pyramid"/>	
-				<unit name="wang_lou"/>	
-			</repaired-units>		
-		</command>
-
-		<command>
-			<type value="repair"/>
-			<name value="repair"/>
-			<image path="../slave/images/worker_repair.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<repair-skill value="repair_skill"/>
-			<repaired-units>
-				<unit name="air_pyramid"/>
-				<unit name="asparenium"/>	
-				<unit name="beehive"/>	
-				<unit name="death_ray_turret"/>	
-				<unit name="defense_tower"/>	
-				<unit name="defense_cannon"/>	
-				<unit name="divination_crystal"/>
-				<unit name="end_the_game"/>
-				<unit name="eagle_pillar"/>
-				<unit name="earth_serpent"/>
-                                <unit name="guard_tower"/>
-				<unit name="killerbeehive"/>	
-                                <unit name="laser_turret"/>
-                                <unit name="lou_lu"/>
+                                <unit name="mistletree"/>
                                 <unit name="obelisk"/>
                                 <unit name="snake_basket"/>					
 				<unit name="sphinx"/>	
 				<unit name="stachel"/>	
 				<unit name="temple"/>	
+				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
 				<unit name="pyramid"/>	
 				<unit name="wang_lou"/>	

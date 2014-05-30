@@ -28,7 +28,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/worker.bmp"/>
-		<image-cancel path="../ultimate_tower/images/cancel.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/worker_select1.wav"/>
@@ -217,7 +217,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../air_pyramid/images/tech_stop.bmp"/>
+			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -345,6 +345,8 @@
 			<buildings>
 				<building name="air_pyramid"/>
 				<building name="eagle_pillar"/>
+				<building name="totem"/>
+				<building name="mistletree"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -357,7 +359,7 @@
 		<command>
 			<type value="repair"/>
 			<name value="repair"/>
-			<image path="images/worker_repair.bmp"/>
+			<image path="../../icons/repair.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -377,10 +379,13 @@
 				<unit name="killerbeehive"/>	
                                 <unit name="laser_turret"/>
                                 <unit name="lou_lu"/>
+                                <unit name="mistletree"/>
                                 <unit name="obelisk"/>
                                 <unit name="snake_basket"/>					
 				<unit name="sphinx"/>	
+				<unit name="stachel"/>	
 				<unit name="temple"/>	
+				<unit name="totem"/>	
 				<unit name="ultimate_tower"/>	
 				<unit name="pyramid"/>	
 				<unit name="wang_lou"/>	

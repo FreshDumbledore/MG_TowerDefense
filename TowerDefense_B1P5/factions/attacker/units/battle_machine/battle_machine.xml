@@ -5,12 +5,12 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2500" regeneration="1"/>
+		<max-hp value="3800" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="45"/>	
-		<armor-type value="wood"/>
+		<armor value="20"/>	
+		<armor-type value="unit"/>
 		<sight value="10"/>
-		<time value="140"/>	
+		<time value="220"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
@@ -28,12 +28,13 @@
 		<upgrade-requirements>
 		</upgrade-requirements>
 		<resource-requirements>
+			<resource name="stone" amount="50"/>
 			<resource name="wood" amount="300"/>
-			<resource name="gold" amount="150"/>						
+			<resource name="gold" amount="200"/>						
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/battle_machine.bmp"/>
-		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
@@ -91,7 +92,7 @@
 			<attack-strenght value="400"/>
 			<attack-var value="150"/>
 			<attack-range value="1"/>
-			<attack-type value="slashing"/>	
+			<attack-type value="attacker"/>	
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -113,7 +114,7 @@
 			<attack-strenght value="170"/>
 			<attack-var value="75"/>
 			<attack-range value="9"/>
-			<attack-type value="piercing"/>
+			<attack-type value="attacker"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>
@@ -166,7 +167,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../archer/images/tech_stop.bmp"/>
+			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -175,7 +176,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="../archer/images/tech_move.bmp"/>
+			<image path="../../icons/move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -184,7 +185,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="attack"/>
-			<image path="images/battle_machine_attack.bmp"/>
+			<image path="../../icons/attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
@@ -194,7 +195,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="attack_arrow"/>
-			<image path="images/battle_machine_attack_arrow.bmp"/>
+			<image path="../../icons/attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
@@ -204,7 +205,7 @@
                    <command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../archer/images/tech_hold.bmp"/>
+			<image path="../../icons/hold.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
 			</upgrade-requirements>

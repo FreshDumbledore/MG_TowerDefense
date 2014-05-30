@@ -39,8 +39,8 @@
 			<resource name= "stone" amount="1500"/>				
 		</resources-stored>
 		<image path="images/pyramid.bmp" />
-		<image-cancel path="../ultimate_tower/images/cancel.bmp"/>
-		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
+		<meeting-point value="true" image-path="../../icons/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</selection-sounds>
