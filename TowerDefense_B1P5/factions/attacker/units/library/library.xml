@@ -8,7 +8,7 @@
 		<armor value="0" />
 		<armor-type value="building"/>				
 		<sight value="12" />
-		<time value="150" />
+		<time value="200" />
 		<multi-selection value="false"/>
 		<cellmap value="true">
 			<row value="1101" /> 
