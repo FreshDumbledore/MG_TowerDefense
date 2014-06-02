@@ -10,7 +10,7 @@
 		<armor-type value="building"/>			
 		<sight value="16"/>
 		<time value="20"/>	
-		<multi-selection value="false"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>	
 		<fields>
@@ -47,7 +47,7 @@
 			<type value="stop"/>
 			<name value="stop_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="1000"/>
 			<anim-speed value="100"/>
 			<animation path="models/turret_light.g3d"/>
 			
@@ -57,19 +57,9 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="0"/>
-			<anim-speed value="0"/>
-			<animation path="models/turret_light.g3d"/>
-			
-			<sound enabled="false"/>
-		</skill>
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="0"/>
-			<anim-speed value="0"/>
+			<ep-cost value="10000"/>
+			<speed value="10"/>
+			<anim-speed value="20"/>
 			<animation path="models/turret_light.g3d"/>
 			
 			<sound enabled="false"/>
@@ -79,7 +69,7 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="90"/>
-			<anim-speed value="90"/>
+			<anim-speed value="120"/>
 			<animation path="models/turret_light.g3d"/>
 			
 			<sound enabled="false"/>
@@ -145,7 +135,7 @@
 	</skills>
 	
 			
-	<commands>					
+	<commands>		
 						
 		<command>				
 			<type value="stop"/>			
@@ -164,6 +154,16 @@
 			<upgrade-requirements/>			
 			<attack-skill value="attack_skill"/>			
                         <stop-skill value="stop_skill"/>						
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="../../icons/attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
 		</command>
 				
 		<command>												

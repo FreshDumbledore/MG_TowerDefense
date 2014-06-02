@@ -10,7 +10,7 @@
 		<armor-type value="building"/>		
 		<sight value="14" />
 		<time value="250" />
-		<multi-selection value="false" />
+		<multi-selection value="true" />
 		<cellmap value="true">
 			<row value="0000"/>
 			<row value="0110"/>
@@ -77,7 +77,17 @@
 			<anim-speed value="50"/>
 			<animation path="models/obelisk_producing.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="100"/>
+			<speed value="10"/>
+			<anim-speed value="20"/>
+			<animation path="models/obelisk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
 		
 		<skill>
 			<type value="upgrade"/>
@@ -160,6 +170,16 @@
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
                         <stop-skill value="stop_skill"/>
+		</command>
+		
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="../../icons/attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
 		</command>
 
 	</commands>

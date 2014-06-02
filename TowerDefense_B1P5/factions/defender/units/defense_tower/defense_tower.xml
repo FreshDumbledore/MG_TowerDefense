@@ -10,7 +10,7 @@
 		<armor-type value="building"/>			
 		<sight value="16"/>
 		<time value="140"/>	
-		<multi-selection value="false"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>	
 		<fields>
@@ -50,6 +50,17 @@
 			<speed value="300"/>
 			<anim-speed value="100"/>
 			<animation path="models/defense_tower.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="10000"/>
+			<speed value="10"/>
+			<anim-speed value="20"/>
+			<animation path="models/defense_tower.g3d"/>
+			
 			<sound enabled="false"/>
 		</skill>
 
@@ -134,6 +145,16 @@
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
                         <stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="../../icons/attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
 		</command>
 
 	</commands>

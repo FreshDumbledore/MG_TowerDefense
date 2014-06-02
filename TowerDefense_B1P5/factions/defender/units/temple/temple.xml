@@ -81,7 +81,7 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>		
