@@ -10,7 +10,7 @@
 		<armor-type value="building"/>		
 		<sight value="19" />
 		<time value="350" />
-		<multi-selection value="true" />
+		<multi-selection value="false" />
 		<cellmap value="false" />
 		<levels/>
 		<fields>
@@ -59,16 +59,6 @@
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="30"/>
-			<animation path="models/mistletree.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="move_skill"/>
-			<ep-cost value="100"/>
-			<speed value="10"/>
-			<anim-speed value="20"/>
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -149,14 +139,6 @@
 			<stop-skill value="stop_skill"/>
 		</command>
 
-		<command>
-			<type value="attack"/>
-			<name value="attack"/>
-			<image path="../../icons/attack.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command>
+
 	</commands>
 </unit>
