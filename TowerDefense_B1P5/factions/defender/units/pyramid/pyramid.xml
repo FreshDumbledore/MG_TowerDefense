@@ -113,12 +113,12 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_improved_slave" />
+			<name value="produce_builder" />
 			<image path="../builder/images/worker.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="improved_slave"/>
+			<produced-unit name="builder"/>
 		</command>
 
 	</commands>
