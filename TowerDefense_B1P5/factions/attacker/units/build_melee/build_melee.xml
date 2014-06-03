@@ -167,6 +167,15 @@
 			<produced-unit name="horseman"/>
 		</command>
 
-				
+		<command>
+			<type value="produce"/>
+			<name value="produce_mad_cow" />
+			<image path="../mad_cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="mad_cow"/>
+		</command>
+		
 	</commands>
 </unit>
