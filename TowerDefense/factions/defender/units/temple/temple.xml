@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="building"/>				
+		<sight value="15" />
+		<time value="200" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
+
+		 </cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="50" />
+			<resource name="stone" amount="200" />
+			<resource name="wood" amount="50" />
+		</resource-requirements>
+		<resources-stored>
+			<resource name="gold" amount="200" />
+			<resource name="wood" amount="200" />
+			<resource name="stone" amount="200" />
+		</resources-stored>
+		<image path="images/castle.bmp" />
+		<image-cancel path="../../icons/cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/temple.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple_build.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="150" />
+			<animation path="models/temple.g3d" />
+			<particles value="true">
+				<particle-file path="upgrade.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>	
+
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple_die.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<commands>		
+		<command>
+			<type value="upgrade"/>
+			<name value="research_level_2_towers" />
+			<image path="images/marz.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="level_2_towers"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_level_3_towers" />
+			<image path="images/marz.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="level_3_towers"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_level_4_towers" />
+			<image path="images/marz.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="level_4_towers"/>
+		</command>
+
+</commands>
+</unit>
