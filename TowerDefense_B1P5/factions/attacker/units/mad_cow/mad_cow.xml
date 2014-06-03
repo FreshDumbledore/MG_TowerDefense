@@ -91,7 +91,7 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="40"/>
-			<anim-speed value="250"/>
+			<anim-speed value="40"/>
 			<animation path="models/cow_walking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/evil_dragon_hit1.wav"/>
