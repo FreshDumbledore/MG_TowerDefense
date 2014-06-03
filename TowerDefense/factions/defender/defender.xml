@@ -8,10 +8,8 @@
 	</starting-resources>
 	<starting-units>
 		<unit name="beehive" amount="1"/>
-		<unit name="defense_tower" amount="1"/>
 		<unit name="pyramid" amount="1"/>
 		<unit name="snake_basket" amount="1"/>
-		<unit name="laser_turret" amount="3"/>
 		<unit name="slave" amount="9"/>
 	</starting-units>
 
