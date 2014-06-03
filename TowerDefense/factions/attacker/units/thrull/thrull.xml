@@ -90,13 +90,6 @@
 			<anim-speed value="130"/>
 			<animation path="models/worker_walking.g3d"/>
 			<sound enabled="false"/>
-			<attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="5" />
-				<target value="faction" include-self="true">
-				</target>
-				<max-hp value="300" value-percent-multipler="true" />
-			</attack-boost>
 		</skill>
 
 		<skill>
