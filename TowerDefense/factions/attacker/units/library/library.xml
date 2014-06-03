@@ -5,6 +5,7 @@
 		<height value="2" />
 		<max-hp value="5000" regeneration="0"/>
 		<max-ep value="0" />
+		<max-unit-count value="1"/>      
 		<armor value="0" />
 		<armor-type value="building"/>				
 		<sight value="12" />

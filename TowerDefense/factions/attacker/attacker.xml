@@ -9,7 +9,7 @@
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
-		<unit name="thrull" amount="9"/>
+		<unit name="thrull" amount="3"/>
 	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
 </faction>

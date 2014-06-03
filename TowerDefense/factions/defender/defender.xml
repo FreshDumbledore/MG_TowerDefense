@@ -9,8 +9,7 @@
 	<starting-units>
 		<unit name="beehive" amount="1"/>
 		<unit name="pyramid" amount="1"/>
-		<unit name="snake_basket" amount="1"/>
-		<unit name="slave" amount="9"/>
+		<unit name="slave" amount="3"/>
 	</starting-units>
 
 	<music value="true" path="music/asak-jadeflange.ogg"/>
