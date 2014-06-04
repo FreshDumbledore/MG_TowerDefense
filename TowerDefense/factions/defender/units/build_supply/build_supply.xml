@@ -4,10 +4,10 @@
 	<parameters>
 		<size value="2" />
 		<height value="1" />
-		<max-hp value="8000" regeneration="0"/>
+		<max-hp value="2000" regeneration="0"/>
 		<max-ep value="0" />
 		<max-unit-count value="3" />
-		<armor value="40" />
+		<armor value="20" />
 		<armor-type value="building"/>				
 		<sight value="1" />
 		<time value="20" />
