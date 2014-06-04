@@ -60,8 +60,8 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="240"/>
+			<ep-cost value="0"/>
+			<speed value="130"/>
 			<anim-speed value="200"/>
 			<animation path="models/worker_walking.g3d"/>
 			<sound enabled="false"/>

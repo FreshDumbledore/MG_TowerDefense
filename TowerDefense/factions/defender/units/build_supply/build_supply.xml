@@ -62,8 +62,10 @@
 				<target value="faction" include-self="false">
 					<unit-type name="builder" />
 				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
+				<move-speed value="110" value-percent-multipler="false" />
+				<particles value="true">
+					<affected-particle-file path="builder_particles.xml"/>
+				</particles>
 			</attack-boost>
 		</skill>
 
@@ -75,15 +77,6 @@
 			<anim-speed value="100" />
 			<animation path="models/pump1.g3d" />
 			<sound enabled="false" />
-			<attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="1" />
-				<target value="faction" include-self="true">
-					<unit-type name="build_supply" />
-				</target>
-				<max-hp value="0" regeneration="-10000" value-percent-multipler="false" />
-				<particles value="false" />
-			</attack-boost>
 		</skill>
 
 		<skill>
@@ -130,8 +123,10 @@
 				<target value="faction" include-self="false">
 					<unit-type name="builder" />
 				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
+				<move-speed value="110" value-percent-multipler="false" />
+				<particles value="true">
+					<affected-particle-file path="builder_particles.xml"/>
+				</particles>
 			</attack-boost>
 		</skill>	
 		

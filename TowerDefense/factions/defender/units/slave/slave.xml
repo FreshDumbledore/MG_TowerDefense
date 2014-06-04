@@ -8,11 +8,11 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="800" regeneration="0"/>
-		<max-ep value="140" regeneration="4"/>
+		<max-ep value="0"/>
 		<armor value="2"/>
 		<armor-type value="unit"/>					
 		<sight value="9"/>
-		<time value="40"/>	
+		<time value="120"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels/>
@@ -86,8 +86,8 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="190"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking.g3d"/>
 			<sound enabled="false"/>
@@ -96,8 +96,8 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_wood_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="210"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking_wood.g3d"/>
 			<sound enabled="false"/>
@@ -106,8 +106,8 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_gold_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="210"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking_gold.g3d"/>
 			<sound enabled="false"/>
@@ -116,9 +116,9 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="190"/>
-			<anim-speed value="100"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
+			<anim-speed value="130"/>
 			<animation path="models/slave_walking_loaded.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -126,9 +126,9 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_wood_skill"/>		
-			<ep-cost value="10"/>
-			<speed value="190"/>
-			<anim-speed value="100"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
+			<anim-speed value="130"/>
 			<animation path="models/slave_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>

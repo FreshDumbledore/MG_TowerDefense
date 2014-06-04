@@ -62,12 +62,14 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="20" />
+				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
 				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
+				<move-speed value="110" value-percent-multipler="false" />
+				<particles value="true">
+					<affected-particle-file path="slave_particles.xml"/>
+				</particles>
 			</attack-boost>
 		</skill>
 		
@@ -81,12 +83,14 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="20" />
+				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
 				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
+				<move-speed value="110" value-percent-multipler="false" />
+				<particles value="true">
+					<affected-particle-file path="slave_particles.xml"/>
+				</particles>
 			</attack-boost>
 		</skill>	
 		
@@ -94,18 +98,20 @@
 			<type value="produce" />
 			<name value="produce_skill"/>		
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="900" />
+			<anim-speed value="900" />
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="20" />
+				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
 				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
+				<move-speed value="110" value-percent-multipler="false" />
+				<particles value="true">
+					<affected-particle-file path="slave_particles.xml"/>
+				</particles>
 			</attack-boost>
 		</skill>
 
@@ -121,15 +127,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 			</sound>			
 			<fade value="false"/>
-			<attack-boost>
-				<allow-multiple-boosts value="true" />
-				<radius value="20" />
-				<target value="faction" include-self="false">
-					<unit-type name="slave" />
-				</target>
-				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
-				<particles value="false" />
-			</attack-boost>
 		</skill>
 
 	</skills>
