@@ -60,7 +60,7 @@
 		<ep-cost value="0"/>
 		<speed value="120"/>
 		<anim-speed value="300"/>
-		<animation path="models/ind_robot.g3d"/>
+		<animation path="models/ind_robot_mine.g3d"/>
 		<sound enabled="true" start-time="0.5">
 			<sound-file path="sounds/worker_build1.wav"/>	
 		</sound>

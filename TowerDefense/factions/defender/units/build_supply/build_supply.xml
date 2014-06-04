@@ -120,8 +120,8 @@
 			<type value="produce" />
 			<name value="produce_skill"/>		
 			<ep-cost value="0" />
-			<speed value="60" />
-			<anim-speed value="60" />
+			<speed value="300" />
+			<anim-speed value="300" />
 			<animation path="models/pump1_pump.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
