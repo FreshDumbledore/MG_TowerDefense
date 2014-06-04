@@ -61,7 +61,7 @@
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
-				<allow-multiple-boosts value="true" />
+				<allow-multiple-boosts value="false" />
 				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
@@ -82,7 +82,7 @@
 			<animation path="models/pyramid_construction.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
-				<allow-multiple-boosts value="true" />
+				<allow-multiple-boosts value="false" />
 				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
@@ -103,7 +103,7 @@
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
-				<allow-multiple-boosts value="true" />
+				<allow-multiple-boosts value="false" />
 				<radius value="24" />
 				<target value="faction" include-self="false">
 					<unit-type name="slave" />
