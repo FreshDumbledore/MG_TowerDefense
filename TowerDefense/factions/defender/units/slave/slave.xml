@@ -8,7 +8,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="800" regeneration="0"/>
-		<max-ep value="0"/>
+		<max-ep value="140" regeneration="4"/>
 		<armor value="2"/>
 		<armor-type value="unit"/>					
 		<sight value="9"/>
@@ -86,7 +86,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>		
-			<ep-cost value="0"/>
+			<ep-cost value="10"/>
 			<speed value="190"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking.g3d"/>
@@ -96,7 +96,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_wood_skill"/>		
-			<ep-cost value="0"/>
+			<ep-cost value="10"/>
 			<speed value="210"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking_wood.g3d"/>
@@ -106,7 +106,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_gold_skill"/>		
-			<ep-cost value="0"/>
+			<ep-cost value="10"/>
 			<speed value="210"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking_gold.g3d"/>
@@ -116,7 +116,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_skill"/>		
-			<ep-cost value="0"/>
+			<ep-cost value="10"/>
 			<speed value="190"/>
 			<anim-speed value="100"/>
 			<animation path="models/slave_walking_loaded.g3d"/>
@@ -126,7 +126,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_wood_skill"/>		
-			<ep-cost value="0"/>
+			<ep-cost value="10"/>
 			<speed value="190"/>
 			<anim-speed value="100"/>
 			<animation path="models/slave_walking_loaded_wood.g3d"/>
@@ -234,119 +234,18 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_level_1"/>
-			<image path="../../icons/build_1.bmp"/>
+			<name value="build_basic"/>
+			<image path="../../icons/build_basic.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="laser_turret"/>
-				<building name="wang_lou"/>
-				<building name="beehive"/>
-				<building name="defense_tower"/>
-
+				<building name="build_supply"/>
 				<building name="temple"/>
 				<building name="pyramid"/>
 
 
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="build_level_2"/>
-			<image path="../../icons/build_2.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="level_2_towers"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="guard_tower"/>
-				<building name="snake_basket"/>
-				<building name="defense_cannon"/>
-				<building name="asparenium"/>
-				<building name="earth_serpent"/>
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="build_level_3"/>
-			<image path="../../icons/build_3.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="level_3_towers"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="divination_crystal"/>
-				<building name="lou_lu"/>
-				<building name="stachel"/>
-
-
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="build_level_4"/>
-			<image path="../../icons/build_4.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="level_4_towers"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="ultimate_tower"/>
-				<building name="obelisk"/>
-				<building name="sphinx"/>
-				<building name="end_the_game"/>
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="build_antiair"/>
-			<image path="../../icons/build_aa.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="air_pyramid"/>
-				<building name="eagle_pillar"/>
-				<building name="totem"/>
-				<building name="mistletree"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -365,30 +264,9 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<unit name="air_pyramid"/>
-				<unit name="asparenium"/>	
-				<unit name="beehive"/>	
-				<unit name="death_ray_turret"/>	
-				<unit name="defense_tower"/>	
-				<unit name="defense_cannon"/>	
-				<unit name="divination_crystal"/>
-				<unit name="end_the_game"/>
-				<unit name="eagle_pillar"/>
-				<unit name="earth_serpent"/>
-                                <unit name="guard_tower"/>
-				<unit name="killerbeehive"/>	
-                                <unit name="laser_turret"/>
-                                <unit name="lou_lu"/>
-                                <unit name="mistletree"/>
-                                <unit name="obelisk"/>
-                                <unit name="snake_basket"/>					
-				<unit name="sphinx"/>	
-				<unit name="stachel"/>	
+				<unit name="build_supply"/>	
 				<unit name="temple"/>	
-				<unit name="totem"/>	
-				<unit name="ultimate_tower"/>	
 				<unit name="pyramid"/>	
-				<unit name="wang_lou"/>	
 			</repaired-units>		
 		</command>
 

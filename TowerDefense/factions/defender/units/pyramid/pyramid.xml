@@ -60,6 +60,15 @@
 			<anim-speed value="100" />
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="20" />
+				<target value="faction" include-self="false">
+					<unit-type name="slave" />
+				</target>
+				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
+				<particles value="false" />
+			</attack-boost>
 		</skill>
 		
 		<skill>
@@ -70,6 +79,15 @@
 			<anim-speed value="300" />
 			<animation path="models/pyramid_construction.g3d" />
 			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="20" />
+				<target value="faction" include-self="false">
+					<unit-type name="slave" />
+				</target>
+				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
+				<particles value="false" />
+			</attack-boost>
 		</skill>	
 		
 		<skill>
@@ -80,6 +98,15 @@
 			<anim-speed value="300" />
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="20" />
+				<target value="faction" include-self="false">
+					<unit-type name="slave" />
+				</target>
+				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
+				<particles value="false" />
+			</attack-boost>
 		</skill>
 
 
@@ -94,6 +121,15 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 			</sound>			
 			<fade value="false"/>
+			<attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="20" />
+				<target value="faction" include-self="false">
+					<unit-type name="slave" />
+				</target>
+				<max-ep value="0" regeneration="100" value-percent-multipler="false" />
+				<particles value="false" />
+			</attack-boost>
 		</skill>
 
 	</skills>
@@ -109,16 +145,6 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="slave"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="produce_builder" />
-			<image path="../builder/images/worker.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="builder"/>
 		</command>
 
 	</commands>
