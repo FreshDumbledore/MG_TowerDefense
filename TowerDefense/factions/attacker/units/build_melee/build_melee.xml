@@ -5,10 +5,11 @@
 		<height value="2" />
 		<max-hp value="3000" regeneration="0"/>
 		<max-ep value="0" />
+		<max-unit-count value="4" />
 		<armor value="0" />
 		<armor-type value="building"/>
 		<sight value="6" />
-		<time value="40" />
+		<time value="50" />
 		<multi-selection value="false" />
 		<cellmap value="true">
 			<row value="1011"/>
