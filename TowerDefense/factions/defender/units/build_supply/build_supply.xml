@@ -77,13 +77,22 @@
 			<anim-speed value="100" />
 			<animation path="models/pump1.g3d" />
 			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0" />
+				<target value="faction" include-self="true">
+					<unit-type name="build_supply" />
+				</target>
+				<max-hp value="0" regeneration="-10000" />
+				<particles value="false"/>
+			</attack-boost>
 		</skill>
 
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
-			<ep-cost value="100"/>
-			<speed value="350"/>
+			<ep-cost value="0"/>
+			<speed value="250"/>
 			<anim-speed value="350"/>
 			<animation path="models/pump1.g3d"/>
 			<sound enabled="false" />
@@ -177,8 +186,8 @@
 			<image path="images/destruct.bmp"/>			
 			<unit-requirements/>			
 			<upgrade-requirements/>			
-			<attack-skill value="attack_skill"/>			
-                        <stop-skill value="stop_destruct"/>						
+                        <stop-skill value="stop_destruct"/>	
+			<attack-skill value="attack_skill"/>							
 		</command>
 
 	</commands>
