@@ -63,7 +63,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="50" />
-			<animation path="models/farm.g3d" />
+			<animation path="models/cowtapult.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -72,7 +72,7 @@
 			<ep-cost value="10000"/>
 			<speed value="10"/>
 			<anim-speed value="20"/>
-			<animation path="models/farm.g3d"/>
+			<animation path="models/cowtapult.g3d"/>
 			
 			<sound enabled="false"/>
 		</skill>	
@@ -83,7 +83,7 @@
 			<ep-cost value="0"/>
 			<speed value="70"/>
 			<anim-speed value="80"/>
-			<animation path="models/farm.g3d"/>
+			<animation path="models/cowtapult_attack.g3d"/>
 			
 			<sound enabled="false"/>
 				
@@ -134,7 +134,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/farm.g3d"/>
+			<animation path="models/cowtapult.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
