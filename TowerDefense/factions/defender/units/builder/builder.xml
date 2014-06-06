@@ -178,7 +178,7 @@
 				<building name="defense_cannon"/>
 				<building name="asparenium"/>
 				<building name="earth_serpent"/>
-				<building name="not_a_farm"/>
+				<building name="cowtapult"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -285,7 +285,7 @@
                                 <unit name="laser_turret"/>
                                 <unit name="lou_lu"/>
                                 <unit name="mistletree"/>
-                                <unit name="not_a_farm"/>
+                                <unit name="cowtapult"/>
                                 <unit name="obelisk"/>
                                 <unit name="snake_basket"/>					
 				<unit name="sphinx"/>	
