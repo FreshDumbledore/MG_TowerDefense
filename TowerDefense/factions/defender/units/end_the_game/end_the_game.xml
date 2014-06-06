@@ -48,7 +48,7 @@
 			<name value="stop_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="100"/>
+			<anim-speed value="20"/>
 			<animation path="models/end_the_game.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -59,7 +59,7 @@
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="0"/>
-			<anim-speed value="150"/>
+			<anim-speed value="20"/>
 			<animation path="models/end_the_game.g3d"/>
 			<sound enabled="false"/>
 		</skill>	
@@ -70,7 +70,7 @@
 			<name value="be_built_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="300"/>
+			<anim-speed value="0"/>
 			<animation path="models/end_the_game.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -80,8 +80,11 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="30"/>
-			<anim-speed value="30"/>
+			<anim-speed value="100"/>
 			<animation path="models/end_the_game.g3d"/>
+			<particles value="true">
+				<particle-file path="particle_glow_ball.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/snake_attack1.wav"/>
 				<sound-file path="sounds/snake_attack2.wav"/>
