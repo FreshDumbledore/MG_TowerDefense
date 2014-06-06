@@ -180,6 +180,16 @@
 			<produced-unit name="repairobot"/>
 		</command>
 
+		<command>
+			<type value="produce"/>
+			<name value="produce_deconstructor" />
+			<image path="../deconstructor/images/technician.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="deconstructor"/>
+		</command>
+		
 		<command>				
 			<type value="attack_stopped"/>			
 			<name value="self_destruction"/>			

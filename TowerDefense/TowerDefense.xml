@@ -6,6 +6,7 @@
 	<attack-types>
 		<attack-type name="attacker"/>
 		<attack-type name="defender"/>
+		<attack-type name="deconstruction"/>
 	</attack-types>
 	
 	<armor-types>
@@ -16,7 +17,10 @@
 	<damage-multipliers>
 		<damage-multiplier attack="attacker" armor="unit" value="1.0"/>
 		<damage-multiplier attack="attacker" armor="building" value="1.0"/>
-
+		
+		<damage-multiplier attack="deconstruction" armor="unit" value="0.0"/>
+		<damage-multiplier attack="deconstruction" armor="building" value="100.0"/>
+		
 		<damage-multiplier attack="defender" armor="unit" value="1.0"/>
 		<damage-multiplier attack="defender" armor="building" value="1.0"/>
 	</damage-multipliers>
