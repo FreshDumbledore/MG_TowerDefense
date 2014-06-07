@@ -72,6 +72,55 @@
 				</particles>
 			</attack-boost>
 		</skill>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_turn"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/pyramid.g3d" />
+			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="999" />
+				<target value="faction" include-self="false">
+					<unit-type name="slave" />
+					<unit-type name="builder" />
+				</target>
+				<max-hp value="0" regeneration="-10000" value-percent-multipler="false" />
+				<particles value="false"/>
+			</attack-boost>
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="999" />
+				<target value="faction" include-self="false">
+					<unit-type name="laser_turret" />
+				</target>
+				<max-hp value="0" regeneration="10000"  value-percent-multipler="false" />
+				<particles value="false"/>
+			</attack-boost>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="250"/>
+			<anim-speed value="350"/>
+			<animation path="models/pyramid.g3d"/>
+			<sound enabled="false" />
+		        <attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="1"/>
+			<attack-type value="defender"/>
+			<attack-start-time value="0.1"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="false" />
+			<splash value="false" />
+		</skill>
 		
 		<skill>
 			<type value="be_built" />
@@ -143,6 +192,16 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="slave"/>
 		</command>
+
+		<!-- command>
+			<type value="attack_stopped"/>	
+			<name value="turn_the_tide" />
+			<image path="../slave/images/worker.bmp"/>			
+			<unit-requirements/>			
+			<upgrade-requirements/>			
+                        <stop-skill value="stop_turn"/>	
+			<attack-skill value="attack_skill"/>	
+		</command -->
 
 	</commands>
 </unit>
