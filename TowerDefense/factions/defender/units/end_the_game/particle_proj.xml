@@ -4,15 +4,15 @@
     	<model value="true" path="models/deathstar.g3d"/>
 	<primitive value="quad"/>
 	<offset x="-0.08" y="-0.5" z="4"/>
-	<color red="0.5" green="0.7" blue="1.0" alpha="1.0" />
+	<color red="0.7" green="0.8" blue="1.0" alpha="1.0" />
 	<color-no-energy red="0.7" green="0.0" blue="0.0" alpha="1.0" />
     	<size value="0.5" />
     	<size-no-energy value="3.3" />
     	<speed value="5.0" />
 	<gravity value="0"/>
-    	<emission-rate value="3" />
-    	<energy-max value="8" />
-    	<energy-var value="3" />
+    	<emission-rate value="1" />
+    	<energy-max value="500" />
+    	<energy-var value="90" />
 	<trajectory type="linear">
 		<speed value="20.0"/>
 	</trajectory>
