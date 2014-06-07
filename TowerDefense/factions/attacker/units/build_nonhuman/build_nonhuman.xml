@@ -140,5 +140,55 @@
 			<produced-unit name="firegolem"/>
 		</command>
 
+		<command>
+			<type value="produce"/>
+			<name value="produce_mad_cow" />
+			<image path="../mad_cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="mad_cow"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="resurrect_parasaurolophus" />
+			<image path="../parasaurolophus/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="parasaurolophus"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="resurrect_triceratops" />
+			<image path="../triceratops/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="triceratops"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="resurrect_brontosaurus" />
+			<image path="../brontosaurus/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="brontosaurus"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="resurrect_tyrannosaurus_rex" />
+			<image path="../tyrannosaurus_rex/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="tyrannosaurus_rex"/>
+		</command>
+
 	</commands>
 </unit>
