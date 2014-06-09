@@ -15,14 +15,22 @@
 	<music value="true" path="music/asak-jadeflange.ogg"/>
 	<ai-behavior>
 		<worker-units>
-			<unit name="slave" minimum="30"/>
+			<unit name="builder" minimum="3"/>
+			<unit name="slave" minimum="12"/>
 		</worker-units>
-		<resource-producer-units>
-			<unit name="slave" minimum="20"/>
-		</resource-producer-units>
 		<building-units>
-			<unit name="laser_turret" minimum="999"/>
-			<unit name="beehive" minimum="999"/>
+			<unit name="laser_turret" minimum="9" />
+			<unit name="beehive" minimum="3" />
+			<unit name="cowtapult" minimum="3" />
+			<unit name="earth_serpent" minimum="3" />
+			<unit name="defense_cannon" minimum="3" />
 		</building-units>
+		<upgrades>
+			<upgrade name="level_2_towers"/>
+			<upgrade name="level_3_towers"/>
+			<upgrade name="level_4_towers"/>
+		</upgrades>
 	</ai-behavior>
 </faction>
+
+
