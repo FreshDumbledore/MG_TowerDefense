@@ -80,7 +80,7 @@
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="90"/>
-			<animation path="models/defense_tower.g3d"/>
+			<animation path="models/defense_tower_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
