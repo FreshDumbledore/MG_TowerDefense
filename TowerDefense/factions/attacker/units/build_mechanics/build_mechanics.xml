@@ -154,7 +154,15 @@
 			<produced-unit name="ballista"/>
 		</command>
 
-
+		<command>
+			<type value="produce"/>
+			<name value="produce_war_machine"/>
+			<image path="../war_machine/images/unit_archer.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="ballista"/>
+		</command>
 		
 	</commands>
 </unit>
