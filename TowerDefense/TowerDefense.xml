@@ -7,11 +7,13 @@
 		<attack-type name="attacker"/>
 		<attack-type name="defender"/>
 		<attack-type name="deconstruction"/>
+		<attack-type name="madness"/>
 	</attack-types>
 	
 	<armor-types>
 		<armor-type name="unit"/>
 		<armor-type name="building"/>
+		<armor-type name="cowlike"/>
 	</armor-types>
 	
 	<damage-multipliers>
@@ -23,5 +25,9 @@
 		
 		<damage-multiplier attack="defender" armor="unit" value="1.0"/>
 		<damage-multiplier attack="defender" armor="building" value="1.0"/>
+		
+		<damage-multiplier attack="madness" armor="cowlike" value="10000.0"/>
+		
+		
 	</damage-multipliers>
 </tech-tree>
