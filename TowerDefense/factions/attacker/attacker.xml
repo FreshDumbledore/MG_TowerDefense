@@ -5,7 +5,8 @@
 		<resource name="gold" amount="1000"/>
 		<resource name="wood" amount="1000"/>	
 		<resource name="stone" amount="500"/>	
-		<resource name="option_point" amount="1"/>	
+		<resource name="option_point" amount="2"/>
+		<resource name="adv_research" amount="0"/>		
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
@@ -21,4 +22,5 @@
 		</upgrades>
 	</ai-behavior>
 </faction>
+
 

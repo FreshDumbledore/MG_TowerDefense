@@ -13,6 +13,7 @@
 		<resource name="wood" amount="300"/>
 		<resource name="gold" amount="450"/>
 		<resource name="option_point" amount="1"/>
+		<resource name="adv_research" amount="-1"/>
 	</resource-requirements>
 	<effects/>
 	<max-hp value="0"/>
