@@ -161,7 +161,7 @@
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="ballista"/>
+			<produced-unit name="war_machine"/>
 		</command>
 		
 	</commands>
