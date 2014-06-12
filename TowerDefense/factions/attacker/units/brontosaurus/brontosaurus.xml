@@ -44,7 +44,7 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>		
@@ -54,23 +54,23 @@
 			<animation path="models/brontosaurus_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="100"/>
-			<anim-speed value="100"/>
-			<animation path="models/brontosaurus_attack_air.g3d"/>
+			<anim-speed value="50"/>
+			<animation path="models/brontosaurus_attack.g3d"/>
 			<sound enabled="false"/> 
-			<attack-strenght value="400"/>
+			<attack-strenght value="800"/>
 			<attack-var value="200"/>
 			<attack-range value="4"/>
 			<attack-type value="attacker"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0.4"/>
+			<attack-start-time value="0"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>	
@@ -138,9 +138,9 @@
 
 
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -170,4 +170,4 @@
 		</command>	
 
 	</commands>
-</unit>
+</unit> 
