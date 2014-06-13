@@ -47,6 +47,16 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/divination_crystal_idle.g3d" />
+			<sound enabled="false" />
+		</skill>
 		
 		<skill>
 			<type value="stop" />
@@ -65,16 +75,6 @@
 				<max-hp value="0" regeneration="-10000" />
 				<particles value="false"/>
 			</attack-boost>
-		</skill>
-	
-		<skill>
-			<type value="stop" />
-			<name value="stop_skill"/>		
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="50" />
-			<animation path="models/divination_crystal_idle.g3d" />
-			<sound enabled="false" />
 		</skill>
 
 		<skill>
