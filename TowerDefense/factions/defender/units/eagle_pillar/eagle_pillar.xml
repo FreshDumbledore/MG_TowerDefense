@@ -124,6 +124,25 @@
 			</sound>			
 			<fade value="false"/>
 		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_destruct"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/eagle_pillar_die.g3d" />
+			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0" />
+				<target value="faction" include-self="true">
+					<unit-type name="eagle_pillar" />
+				</target>
+				<max-hp value="0" regeneration="-10000" />
+				<particles value="false"/>
+			</attack-boost>
+		</skill>
 
 	</skills>
 	
@@ -146,6 +165,16 @@
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
                         <stop-skill value="stop_skill"/>
+		</command>
+		
+		<command>				
+			<type value="attack_stopped"/>			
+			<name value="self_destruction"/>			
+			<image path="../../icons/destruct.bmp"/>			
+			<unit-requirements/>			
+			<upgrade-requirements/>			
+                        <stop-skill value="stop_destruct"/>	
+			<attack-skill value="attack_skill"/>							
 		</command>
 
 	</commands>
