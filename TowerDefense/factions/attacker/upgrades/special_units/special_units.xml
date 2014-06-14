@@ -7,9 +7,6 @@
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="ranged_units"/>
-		<upgrade name="nonhuman_units"/>
-		<upgrade name="mechanic_units"/>
-		<upgrade name="air_units"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="wood" amount="100"/>

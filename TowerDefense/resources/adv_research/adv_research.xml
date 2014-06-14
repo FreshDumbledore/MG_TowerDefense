@@ -2,5 +2,8 @@
 
 <resource>
 	<image path="images/energy.bmp"/>
-	<type value="static"/>
+	<type value="tileset">
+		<default-amount value="0"/>
+		<tileset-object value="99"/>
+	</type>
 </resource>
