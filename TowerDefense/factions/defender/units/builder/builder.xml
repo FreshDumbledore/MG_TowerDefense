@@ -148,6 +148,7 @@
 				<building name="wang_lou"/>
 				<building name="beehive"/>
 				<building name="defense_tower"/>
+				<building name="cowtapult"/>
 
 				<building name="temple"/>
 				<building name="pyramid"/>
@@ -178,7 +179,7 @@
 				<building name="defense_cannon"/>
 				<building name="asparenium"/>
 				<building name="earth_serpent"/>
-				<building name="cowtapult"/>
+				<building name="flamethrower"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">

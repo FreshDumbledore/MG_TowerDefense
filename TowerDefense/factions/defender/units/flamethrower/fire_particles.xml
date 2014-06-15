@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<unit-particle-system>
+    	<texture value="true" path="images/gas.bmp" luminance="true"/>
+	<primitive value="quad"/>
+	<offset x="0" y="-0.7" z="2.4"/>
+	<direction x="0.0" y="0.0001" z="2.2"/>
+	<color red="1.0" green="0.2" blue="0.0" alpha="0.5" />
+	<color-no-energy red="1.0" green="0.4" blue="0.0" alpha="0.0" />
+    	<radius value="1.0" />
+    	<size value="1.0" />
+    	<size-no-energy value="2.0" />
+    	<speed value="5" />
+	<gravity value="0.0"/>
+    	<emission-rate value="2" />
+    	<energy-max value="70" />
+    	<energy-var value="0" />
+	<relative value="true" />
+    	<fixed value="false" />
+    	<teamcolorNoEnergy value="false" />
+    	<teamcolorEnergy value="false" />
+</unit-particle-system>

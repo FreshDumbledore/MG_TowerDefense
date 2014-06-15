@@ -7,7 +7,7 @@
 		<resource name="stone" amount="1000"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="beehive" amount="1"/>
+		<unit name="defense_tower" amount="1"/>
 		<unit name="pyramid" amount="1"/>
 		<unit name="slave" amount="3"/>
 	</starting-units>
