@@ -75,7 +75,7 @@
 			<type value="morph"/>											
 			<name value="level_adv"/>											
 			<ep-cost value="0"/>											
-			<speed value="10"/>											
+			<speed value="500"/>											
 			<anim-speed value="10"/>											
 			<animation path="models/q.g3d"/>											
 			<sound enabled="false"/> 											

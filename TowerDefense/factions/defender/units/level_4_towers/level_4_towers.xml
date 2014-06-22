@@ -78,7 +78,7 @@
 			<name value="level_adv"/>											
 			<ep-cost value="0"/>											
 			<speed value="10"/>											
-			<anim-speed value="10"/>											
+			<anim-speed value="500"/>											
 			<animation path="models/q.g3d"/>											
 			<sound enabled="false"/> 											
 		</skill>
