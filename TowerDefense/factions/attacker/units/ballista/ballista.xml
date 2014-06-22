@@ -77,7 +77,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
-			<animation path="models/ballista_idle.g3d"/>
+			<animation path="models/ballista_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
  
