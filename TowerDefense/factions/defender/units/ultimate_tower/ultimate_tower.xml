@@ -123,6 +123,16 @@
 			</sound>			
 			<fade value="false"/>
 		</skill>
+
+		<skill>												
+			<type value="morph"/>											
+			<name value="morph"/>											
+			<ep-cost value="0"/>											
+			<speed value="500"/>											
+			<anim-speed value="200"/>											
+			<animation path="models/archmage_tower.g3d"/>											
+			<sound enabled="false"/> 											
+		</skill>
 		
 		<skill>
 			<type value="stop" />
@@ -184,6 +194,17 @@
 			<upgrade-requirements/>			
                         <stop-skill value="stop_destruct"/>	
 			<attack-skill value="attack_skill"/>							
+		</command>
+
+		<command>												
+			<type value="morph"/>											
+			<name value="back_to_tower_selection"/>											
+			<image path="../level_4_towers/images/level_4_towers.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>					
+			<morph-skill value="morph"/>											
+			<morph-unit name= "level_4_towers"/>											
+			<discount value="0"/>											
 		</command>
 
 	</commands>

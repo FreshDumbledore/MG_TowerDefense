@@ -9,8 +9,8 @@
 		<height value="1"/>
 		<max-hp value="500" regeneration="0"/>
 		<max-ep value="0"/>
-		<armor value="0"/>
-		<armor-type value="cowlike"/>					
+		<armor value="20"/>
+		<armor-type value="unit"/>					
 		<sight value="10"/>
 		<time value="40"/>	
 		<multi-selection value="true"/>	

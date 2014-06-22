@@ -20,7 +20,6 @@
 			<property value="burnable"/>
 		</properties>
 		<light enabled="false"/>
-		
 		<unit-requirements>
 		</unit-requirements>
 		<upgrade-requirements/>
@@ -50,7 +49,6 @@
 			<speed value="1000"/>
 			<anim-speed value="100"/>
 			<animation path="models/turret_light.g3d"/>
-			
 			<sound enabled="false"/>
 		</skill>
 
@@ -61,7 +59,6 @@
 			<speed value="10"/>
 			<anim-speed value="20"/>
 			<animation path="models/turret_light.g3d"/>
-			
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -71,9 +68,7 @@
 			<speed value="90"/>
 			<anim-speed value="120"/>
 			<animation path="models/turret_light.g3d"/>
-			
 			<sound enabled="false"/>
-				
 			<attack-strenght value="40"/>
 			<attack-var value="40"/>
 			<attack-range value="12"/>
@@ -94,10 +89,6 @@
 				<particle value="true" path="particle_splash.xml"/>			
 			</splash>
 		</skill>
-		
-		
-		
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>		
@@ -115,7 +106,7 @@
 		</skill>
 		<skill>												
 			<type value="morph"/>											
-			<name value="build_death_ray_turret"/>											
+			<name value="morph"/>											
 			<ep-cost value="0"/>											
 			<speed value="500"/>											
 			<anim-speed value="200"/>											
@@ -132,7 +123,6 @@
 			<animation path="models/turret_base_build.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
 		<skill>
 			<type value="stop" />
 			<name value="stop_destruct"/>		
@@ -184,18 +174,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-				
-		<command>												
-			<type value="morph"/>											
-			<name value="upgrade_to_death_ray_turret"/>											
-			<image path="../death_ray_turret/images/defense_tower.bmp"/>											
-			<unit-requirements/>											
-			<upgrade-requirements/>
-											
-			<morph-skill value="build_death_ray_turret"/>											
-			<morph-unit name= "death_ray_turret"/>											
-			<discount value="0"/>											
-		</command>
+			
 
 		<command>				
 			<type value="attack_stopped"/>			
@@ -205,6 +184,27 @@
 			<upgrade-requirements/>			
                         <stop-skill value="stop_destruct"/>	
 			<attack-skill value="attack_skill"/>							
+		</command>
+
+		<command>												
+			<type value="morph"/>											
+			<name value="upgrade_to_level_2_damage"/>											
+			<image path="../death_ray_turret/images/defense_tower.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>						
+			<morph-skill value="morph"/>											
+			<morph-unit name= "death_ray_turret"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="back_to_tower_selection"/>											
+			<image path="../level_1_towers/images/level_1_towers.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>					
+			<morph-skill value="morph"/>											
+			<morph-unit name= "level_1_towers"/>											
+			<discount value="0"/>											
 		</command>
 						
 						

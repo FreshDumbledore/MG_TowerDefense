@@ -7,7 +7,6 @@
 		<resource name="stone" amount="1000"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="defense_tower" amount="1"/>
 		<unit name="pyramid" amount="1"/>
 		<unit name="slave" amount="3"/>
 	</starting-units>
@@ -17,14 +16,17 @@
 		<worker-units>
 			<unit name="builder" minimum="3"/>
 			<unit name="slave" minimum="12"/>
+			<unit name="level_1_towers" minimum="99" />
 		</worker-units>
 		<building-units>
-			<unit name="laser_turret" minimum="9" />
-			<unit name="beehive" minimum="3" />
-			<unit name="cowtapult" minimum="3" />
-			<unit name="earth_serpent" minimum="3" />
-			<unit name="defense_cannon" minimum="3" />
+			<unit name="level_1_towers" minimum="99" />
 		</building-units>
+		<warrior-units>
+			<unit name="laser_turret" minimum="10" />
+			<unit name="defense_tower" minimum="5" />
+			<unit name="cowtapult" minimum="5" />
+			<unit name="air_pyramid" minimum="2" />
+		</warrior-units>
 		<upgrades>
 			<upgrade name="level_2_towers"/>
 			<upgrade name="level_3_towers"/>

@@ -117,7 +117,6 @@
 		<repaired-units>
 				<unit name="air_pyramid"/>
 				<unit name="asparenium"/>	
-				<unit name="beehive"/>	
 				<unit name="build_supply"/>	
 				<unit name="death_ray_turret"/>	
 				<unit name="defense_tower"/>	
@@ -127,20 +126,16 @@
 				<unit name="eagle_pillar"/>
 				<unit name="earth_serpent"/>
                                 <unit name="guard_tower"/>
-				<unit name="killerbeehive"/>	
                                 <unit name="laser_turret"/>
-                                <unit name="lou_lu"/>
                                 <unit name="mistletree"/>
                                 <unit name="cowtapult"/>
-                                <unit name="obelisk"/>
-                                <unit name="snake_basket"/>					
+                                <unit name="obelisk"/>					
 				<unit name="sphinx"/>	
 				<unit name="stachel"/>	
 				<unit name="temple"/>	
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
-				<unit name="pyramid"/>	
-				<unit name="wang_lou"/>				
+				<unit name="pyramid"/>			
 		</repaired-units>	
 	</command>		
 </commands>

@@ -124,6 +124,16 @@
 			<sound enabled="false" />
 		</skill>
 
+		<skill>												
+			<type value="morph"/>											
+			<name value="morph"/>											
+			<ep-cost value="0"/>											
+			<speed value="500"/>											
+			<anim-speed value="200"/>											
+			<animation path="models/air_pyramid.g3d"/>											
+			<sound enabled="false"/> 											
+		</skill>
+
 
 		<skill>
 			<type value="stop" />
@@ -176,6 +186,28 @@
 			<upgrade-requirements/>			
                         <stop-skill value="stop_destruct"/>	
 			<attack-skill value="attack_skill"/>							
+		</command>
+
+		<command>												
+			<type value="morph"/>											
+			<name value="upgrade_to_level_2_antiair"/>											
+			<image path="../eagle_pillar/images/es.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>						
+			<morph-skill value="morph"/>											
+			<morph-unit name="eagle_pillar"/>											
+			<discount value="0"/>											
+		</command>
+
+		<command>												
+			<type value="morph"/>											
+			<name value="back_to_tower_selection"/>											
+			<image path="../level_1_towers/images/level_1_towers.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>					
+			<morph-skill value="morph"/>											
+			<morph-unit name= "level_1_towers"/>											
+			<discount value="0"/>											
 		</command>
 		
 	</commands>

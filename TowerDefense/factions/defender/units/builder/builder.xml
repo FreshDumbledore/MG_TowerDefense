@@ -137,49 +137,17 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_level_1"/>
-			<image path="../../icons/build_1.bmp"/>
+			<name value="build_towers"/>
+			<image path="../level_1_towers/images/level_1_towers.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="laser_turret"/>
-				<building name="wang_lou"/>
-				<building name="beehive"/>
-				<building name="defense_tower"/>
-				<building name="cowtapult"/>
-
-				<building name="temple"/>
-				<building name="pyramid"/>
-
-
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-<command>
-			<type value="build"/>
-			<name value="build_level_2"/>
-			<image path="../../icons/build_2.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="level_2_towers"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="guard_tower"/>
-				<building name="snake_basket"/>
-				<building name="defense_cannon"/>
-				<building name="asparenium"/>
-				<building name="earth_serpent"/>
-				<building name="flamethrower"/>
+				<building name="level_1_towers"/>
+				<building name="level_2_towers"/>
+				<building name="level_3_towers"/>
+				<building name="level_4_towers"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -191,43 +159,14 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_level_3"/>
-			<image path="../../icons/build_3.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="level_3_towers"/>
-			</upgrade-requirements>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="divination_crystal"/>
-				<building name="lou_lu"/>
-				<building name="stachel"/>
-
-
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value="build"/>
-			<name value="build_level_4"/>
+			<name value="special_towers"/>
 			<image path="../../icons/build_4.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
-				<upgrade name="level_4_towers"/>
 			</upgrade-requirements>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="ultimate_tower"/>
-				<building name="obelisk"/>
-				<building name="sphinx"/>
 				<building name="end_the_game"/>
 			</buildings>
 			<start-sound enabled="false"/>
@@ -240,7 +179,7 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_antiair"/>
+			<name value="antiair_towers"/>
 			<image path="../../icons/build_aa.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
@@ -272,7 +211,6 @@
 			<repaired-units>
 				<unit name="air_pyramid"/>
 				<unit name="asparenium"/>	
-				<unit name="beehive"/>	
 				<unit name="build_supply"/>	
 				<unit name="death_ray_turret"/>	
 				<unit name="defense_tower"/>	
@@ -282,21 +220,17 @@
 				<unit name="eagle_pillar"/>
 				<unit name="earth_serpent"/>
 				<unit name="flamethrower"/>
-                                <unit name="guard_tower"/>
-				<unit name="killerbeehive"/>	
+                                <unit name="guard_tower"/>	
                                 <unit name="laser_turret"/>
-                                <unit name="lou_lu"/>
                                 <unit name="mistletree"/>
                                 <unit name="cowtapult"/>
-                                <unit name="obelisk"/>
-                                <unit name="snake_basket"/>					
+                                <unit name="obelisk"/>			
 				<unit name="sphinx"/>	
 				<unit name="stachel"/>	
 				<unit name="temple"/>	
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
 				<unit name="pyramid"/>	
-				<unit name="wang_lou"/>	
 			</repaired-units>		
 		</command>	
 
