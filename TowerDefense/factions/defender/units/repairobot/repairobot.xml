@@ -136,8 +136,6 @@
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
 				<unit name="pyramid"/>			
-				<unit name="pyramid"/>	
-				<unit name="wang_lou"/>
 				<unit name="flamethrower"/>
 		</repaired-units>	
 	</command>		
