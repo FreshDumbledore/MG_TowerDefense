@@ -135,13 +135,10 @@
 				<unit name="temple"/>	
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
-<<<<<<< HEAD
 				<unit name="pyramid"/>			
-=======
 				<unit name="pyramid"/>	
 				<unit name="wang_lou"/>
 				<unit name="flamethrower"/>
->>>>>>> ad8c9aabeefe1bbc4925073e8f7cc311521c7030
 		</repaired-units>	
 	</command>		
 </commands>
