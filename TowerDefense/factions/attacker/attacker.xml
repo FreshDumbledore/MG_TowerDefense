@@ -15,8 +15,13 @@
 	<music value="true" path="music/music_indian.ogg"/>
 	<ai-behavior>
 		<worker-units>
-			<unit name="castle" minimum="1"/>
+			<unit name="thrall" minimum="12"/>
 		</worker-units>
+		<building-units>
+			<unit name="library" minimum="1"/>
+			<unit name="build_melee" minimum="1"/>
+			<unit name="build_ranged" minimum="1"/>
+		</building-units>
 		<upgrades>
 			<upgrade name="ranged_units"/>
 		</upgrades>
