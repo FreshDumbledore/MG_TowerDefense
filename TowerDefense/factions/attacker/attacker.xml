@@ -15,15 +15,22 @@
 	<music value="true" path="music/music_indian.ogg"/>
 	<ai-behavior>
 		<worker-units>
-			<unit name="thrall" minimum="12"/>
+			<unit name="thrall" minimum="9"/>
 		</worker-units>
+		<warrior-units>
+			<unit name="fire_archer" minimum="9"/>
+			<unit name="ballista" minimum="3"/>
+			<unit name="catapult" minimum="3"/>
+		</warrior-units>
 		<building-units>
 			<unit name="library" minimum="1"/>
 			<unit name="build_melee" minimum="1"/>
 			<unit name="build_ranged" minimum="1"/>
+			<unit name="build_mechanics" minimum="3"/>
 		</building-units>
 		<upgrades>
 			<upgrade name="ranged_units"/>
+			<upgrade name="mechanic_units"/>
 		</upgrades>
 	</ai-behavior>
 </faction>
