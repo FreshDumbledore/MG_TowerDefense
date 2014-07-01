@@ -106,9 +106,9 @@
 			</particles>
 			<sound enabled="false"/>
 				
-			<attack-strenght value="150"/>
+			<attack-strenght value="170"/>
 			<attack-var value="40"/>
-			<attack-range value="11"/>
+			<attack-range value="12"/>
 			<attack-type value="defender"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>
