@@ -192,7 +192,6 @@
 				<unit name="death_ray_turret"/>	
 				<unit name="defense_tower"/>	
 				<unit name="defense_cannon"/>	
-				<unit name="divination_crystal"/>
 				<unit name="end_the_game"/>
 				<unit name="eagle_pillar"/>
 				<unit name="earth_serpent"/>
@@ -203,7 +202,6 @@
                                 <unit name="cowtapult"/>
                                 <unit name="obelisk"/>			
 				<unit name="sphinx"/>	
-				<unit name="stachel"/>	
 				<unit name="research_facility"/>	
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
