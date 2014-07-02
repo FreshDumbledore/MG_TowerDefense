@@ -90,14 +90,14 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="80"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/cowtapult_attack.g3d"/>
 			
 			<sound enabled="false"/>
 				
-			<attack-strenght value="120"/>
-			<attack-var value="40"/>
+			<attack-strenght value="100"/>
+			<attack-var value="60"/>
 			<attack-range value="11"/>
 			<attack-type value="defender"/>
 			<attack-start-time value="0.1"/>
