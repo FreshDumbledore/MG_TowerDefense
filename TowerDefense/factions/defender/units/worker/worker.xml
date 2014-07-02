@@ -244,8 +244,6 @@
 				<building name="build_supply"/>
 				<building name="research_facility"/>
 				<building name="headquarter"/>
-
-
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
