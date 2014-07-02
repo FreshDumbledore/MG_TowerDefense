@@ -53,7 +53,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="55"/>
-			<animation path="models/worker_standing.g3d"/>
+			<animation path="models/ind_robot.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -63,7 +63,7 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="200"/>
-			<animation path="models/worker_walking.g3d"/>
+			<animation path="models/ind_robot_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -73,7 +73,7 @@
 			<ep-cost value="0"/>
 			<speed value="205"/>
 			<anim-speed value="180"/>
-			<animation path="models/worker_building.g3d"/>
+			<animation path="models/ind_robot_mine.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
@@ -87,7 +87,7 @@
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="180"/>
-			<animation path="models/worker_building.g3d"/>
+			<animation path="models/ind_robot_mine.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
@@ -102,7 +102,7 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="90"/>
-			<animation path="models/worker_dying.g3d"/>
+			<animation path="models/ind_robot_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die2.wav"/>
@@ -204,11 +204,21 @@
                                 <unit name="obelisk"/>			
 				<unit name="sphinx"/>	
 				<unit name="stachel"/>	
-				<unit name="temple"/>	
+				<unit name="research_facility"/>	
 				<unit name="totem"/>
 				<unit name="ultimate_tower"/>	
-				<unit name="pyramid"/>	
-			</repaired-units>		
+				<unit name="headquarter"/>	
+			</repaired-units>
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="1" />
+				<target value="faction" include-self="true">
+					<unit-type name="builder" />
+				</target>
+				<max-hp value="1000" value-percent-multipler="false" />
+				<armor value="10" value-percent-multipler="false" />
+				<particles value="false"/>
+			</attack-boost>		
 		</command>	
 
 	</commands>

@@ -7,15 +7,15 @@
 		<resource name="stone" amount="1000"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="pyramid" amount="1"/>
-		<unit name="slave" amount="3"/>
+		<unit name="headquarter" amount="1"/>
+		<unit name="worker" amount="3"/>
 	</starting-units>
 
 	<music value="true" path="music/asak-jadeflange.ogg"/>
 	<ai-behavior>
 		<worker-units>
 			<unit name="builder" minimum="3"/>
-			<unit name="slave" minimum="12"/>
+			<unit name="worker" minimum="12"/>
 			<unit name="level_1_towers" minimum="99" />
 		</worker-units>
 		<building-units>

@@ -2,15 +2,15 @@
 
 <faction>
 	<starting-resources>
-		<resource name="gold" amount="1000"/>
-		<resource name="wood" amount="1000"/>	
-		<resource name="stone" amount="500"/>	
+		<resource name="gold" amount="800"/>
+		<resource name="wood" amount="400"/>	
+		<resource name="stone" amount="400"/>	
 		<resource name="option_point" amount="2"/>
 		<resource name="adv_research" amount="0"/>		
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
-		<unit name="thrall" amount="3"/>
+		<unit name="thrall" amount="12"/>
 	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
 	<ai-behavior>
