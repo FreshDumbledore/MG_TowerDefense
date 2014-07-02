@@ -21,13 +21,6 @@
 		<building-units>
 			<unit name="build_supply" minimum="1" />
 		</building-units>
-		<warrior-units>
-			<unit name="level_1_towers" minimum="99" />
-			<unit name="laser_turret" minimum="10" />
-			<unit name="defense_tower" minimum="5" />
-			<unit name="cowtapult" minimum="5" />
-			<unit name="air_pyramid" minimum="2" />
-		</warrior-units>
 		<upgrades>
 			<upgrade name="level_2_towers"/>
 			<upgrade name="level_3_towers"/>
