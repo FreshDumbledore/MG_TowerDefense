@@ -88,7 +88,8 @@
 			<name value="upgrade_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="300" />
+			<anim-speed value="1" />
+			<anim-progress-bound value="true"/>
 			<animation path="models/res_res.g3d" />
 			<particles value="false"/>
 			<sound enabled="false"/>
