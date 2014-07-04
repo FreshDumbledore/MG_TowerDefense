@@ -74,6 +74,9 @@
 			<speed value="205"/>
 			<anim-speed value="180"/>
 			<animation path="models/ind_robot_mine.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
@@ -88,6 +91,9 @@
 			<speed value="100"/>
 			<anim-speed value="180"/>
 			<animation path="models/ind_robot_mine.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
