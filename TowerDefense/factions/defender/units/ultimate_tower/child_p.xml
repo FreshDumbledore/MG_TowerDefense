@@ -3,7 +3,7 @@
     	<texture value="true" path="images/archmage_particle.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="0.0" y="0.0" z="3.4"/>
+	<offset x="1.2" y="0.0" z="2.6"/>
 	<color red="0.6" green="0.6" blue="1.0" alpha="0.0" />
 	<color-no-energy red="0.0" green="0.0" blue="1.0" alpha="0.8" />
     	<size value="2.0" />
@@ -12,7 +12,9 @@
 	<gravity value="0.01"/>
     	<emission-rate value="10" />
     	<energy-max value="60" />
-    	<energy-var value="20" />	
+    	<energy-var value="20" />
+	<relative value="false" />
+	<fixed value="false" />	
 	<trajectory type="linear">
 		<speed value="7.0"/>
 	</trajectory>
