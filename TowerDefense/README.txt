@@ -24,6 +24,9 @@ Lou_Lu			East vs. Mega
 Stachel			Prax
 Lou_Lu			Wang Lou
 
+MUSIC
+Never give up-Everlasting Dream
+
 MORE CREDITS
 Also thanks to everyone in irc.freenode.net #megaglest-lobby and #megaglest channel who helped testing or replied to questions and helped on problems with blender or megaglest, especially alket, atze and filux
 
