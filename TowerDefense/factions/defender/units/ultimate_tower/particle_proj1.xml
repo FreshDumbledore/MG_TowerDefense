@@ -1,19 +1,21 @@
 <?xml version="1.0" standalone="yes"?>
-<projectile-particle-system>
-    	<texture value="true" path="images/archmage_particle.bmp" luminance="true"/>
+<unit-particle-system>
+    	<texture value="true" path="images/archmage_particle.bmp" luminance="false"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="0.0" y="0.0" z="3.4"/>
-	<color red="0.6" green="0.6" blue="1.0" alpha="0.0" />
+	<offset x="1.0" y="0.0" z="3.4"/>
+	<color red="0.5" green="0.6" blue="1.0" alpha="0.0" />
 	<color-no-energy red="0.0" green="0.0" blue="1.0" alpha="0.8" />
     	<size value="2.0" />
     	<size-no-energy value="0.8" />
+	<direction x="0" y="0" z="10" />
+	<radius value="1.0" />
+	<fixed value="false" />
     	<speed value="4.0" />
 	<gravity value="0.01"/>
     	<emission-rate value="10" />
     	<energy-max value="60" />
     	<energy-var value="20" />	
-	<trajectory type="linear">
-		<speed value="7.0"/>
-	</trajectory>
-</projectile-particle-system>
+	<relativeDirection value="true" />
+	<relative value="true" />
+</unit-particle-system>
