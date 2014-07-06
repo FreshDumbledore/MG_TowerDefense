@@ -7,13 +7,11 @@
 		<attack-type name="attacker"/>
 		<attack-type name="defender"/>
 		<attack-type name="deconstruction"/>
-		<attack-type name="madness"/>
 	</attack-types>
 	
 	<armor-types>
 		<armor-type name="unit"/>
 		<armor-type name="building"/>
-		<armor-type name="cowlike"/>
 	</armor-types>
 	
 	<damage-multipliers>

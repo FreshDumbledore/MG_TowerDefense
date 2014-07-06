@@ -12,7 +12,7 @@
 		<unit name="scout" amount="1"/>
 	</starting-units>
 
-	<music value="true" path="music/never_give_up.ogg"/>
+	<music value="true" path="music/asak-jadeflange.ogg"/>
 	<ai-behavior>
 		<worker-units>
 			<unit name="builder" minimum="3"/>
