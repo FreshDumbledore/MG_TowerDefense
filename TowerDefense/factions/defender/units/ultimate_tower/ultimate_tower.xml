@@ -99,8 +99,14 @@
 			<particles value="true" start-time="0.0" end-time="1.0">
 				<particle-file path="particle_proj1.xml"/>
 				<particle-file path="particle_proj2.xml"/>
+				<particle-file path="particle_fall1.xml"/>
+				<particle-file path="particle_fall2.xml"/>
 			</particles>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
 		</skill>
 		
 		<skill>
