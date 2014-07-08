@@ -12,7 +12,7 @@
 		<unit name="castle" amount="1"/>
 		<unit name="thrall" amount="12"/>
 	</starting-units>
-	<music value="true" path="music/music_indian.ogg"/>
+	<music value="true" path="music/pirates_sword_fight.ogg"/>
 	<ai-behavior>
 		<worker-units>
 			<unit name="thrall" minimum="9"/>
