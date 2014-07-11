@@ -10,7 +10,11 @@
 		<sight value="6" />
 		<time value="100" />
 		<multi-selection value="false" />
-		<cellmap value="false">
+		<cellmap value="true">
+			<row value="1011"/>
+			<row value="0000"/>
+			<row value="0000"/>
+			<row value="1011"/>
 		</cellmap>
 		<levels/>
 		<fields>

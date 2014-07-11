@@ -14,7 +14,7 @@
 		<cellmap value="true">
 			<row value="1011"/>
 			<row value="0000"/>
-			<row value="1011"/>
+			<row value="0000"/>
 			<row value="1011"/>
 		</cellmap>
 		<levels/>
