@@ -71,7 +71,7 @@
 			<sound enabled="false"/>
 			<attack-strenght value="40"/>
 			<attack-var value="40"/>
-			<attack-range value="12"/>
+			<attack-range value="15"/>
 			<attack-type value="defender"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>

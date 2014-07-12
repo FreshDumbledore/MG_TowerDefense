@@ -83,7 +83,7 @@
 			</sound>
 			<attack-strenght value="130"/>
 			<attack-var value="50"/>
-			<attack-range value="11"/>
+			<attack-range value="12"/>
 			<attack-type value="defender"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>
