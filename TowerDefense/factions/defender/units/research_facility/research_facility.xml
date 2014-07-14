@@ -57,7 +57,7 @@
 			<type value="stop" />
 			<name value="stop_skill"/>		
 			<ep-cost value="0" />
-			<speed value="300" />
+			<speed value="10" />
 			<anim-speed value="100" />
 			<animation path="models/res_sit.g3d" />
 			<sound enabled="false" />
