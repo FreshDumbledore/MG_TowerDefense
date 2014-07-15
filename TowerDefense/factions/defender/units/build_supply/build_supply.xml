@@ -125,6 +125,7 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/pump1_pump.g3d" />
+			<anim-progress-bound value="true"/>
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />

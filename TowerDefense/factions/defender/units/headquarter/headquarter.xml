@@ -150,6 +150,7 @@
 			<speed value="900" />
 			<anim-speed value="300" />
 			<animation path="models/hwq_prod.g3d" />
+			<anim-progress-bound value="true"/>
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
