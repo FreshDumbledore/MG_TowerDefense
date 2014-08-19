@@ -57,7 +57,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="500" />
+			<anim-speed value="300" />
 			<animation path="models/morph_pod.g3d" />
 			<sound enabled="false"/>		
 			<fade value="true"/>
