@@ -1,21 +1,20 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
-    	<texture value="true" luminance="true" path="images/archer_particle.bmp"/>
-    	<model value="true" path="models/defense_tower_arrow.g3d"/>
-	<primitive value="line"/>
-	<offset x="0" y="0" z="0"/>
-	<color red="1.0" green="1.0" blue="1.0" alpha="0.5" />
-	<color-no-energy red="0.5" green="0.5" blue="0.5" alpha="0.0" />
-    	<size value="2" />
-    	<size-no-energy value="1" />
-    	<speed value="0" />
+    	<texture value="true" luminance="true" path="images/particle.bmp"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0.4" z="2.9"/>
+	<color red="0.6" green="0.6" blue="0.3" alpha="1" />
+	<color-no-energy red="0.2" green="0.2" blue="0.2" alpha="0.8" />
+    	<size value="0.1" />
+    	<size-no-energy value="0.1" />
+    	<speed value="1" />
 	<gravity value="0"/>
-    	<emission-rate value="1" />
-    	<energy-max value="20" />
+    	<emission-rate value="12" />
+    	<energy-max value="10" />
     	<energy-var value="0" />
 	
-	<trajectory type="parabolic">
-		<speed value="18"/>
-		<scale value="1"/>
+	<trajectory type="linear">
+		<speed value="30"/>
 	</trajectory>
 </projectile-particle-system>
