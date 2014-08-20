@@ -10,7 +10,7 @@
 		<unit name="headquarter" amount="1"/>
 		<unit name="worker" amount="3"/>
 		<unit name="scout" amount="1"/>
-		<unit name="guard_tower" amount="0"/>
+		<unit name="freezer" amount="0"/>
 		<unit name="flamethrower" amount="0"/>
 		<unit name="ultimate_tower" amount="0"/>
 		<unit name="research_facility" amount="0"/>
