@@ -9,7 +9,7 @@
 		<max-unit-count value="3" />
 		<armor value="20" />
 		<armor-type value="building"/>				
-		<sight value="10" />
+		<sight value="16" />
 		<time value="20" />
 		<multi-selection value="false" />
 		<cellmap value="true">
@@ -85,7 +85,7 @@
 			<splash value="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10" />
+				<radius value="16" />
 				<target value="foe" include-self="false">
 				</target>
 				<move-speed value="-50" value-percent-multiplier="true" />
