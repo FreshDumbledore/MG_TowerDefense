@@ -73,6 +73,16 @@
 		</skill>
 		<skill>												
 			<type value="morph"/>											
+			<name value="lvl_1_tank_morph"/>											
+			<ep-cost value="0"/>											
+			<speed value="205"/>											
+			<anim-speed value="10"/>
+			<anim-progress-bound value="true"/>											
+			<animation path="../defense_tower/models/defense_tower_morph.g3d"/>											
+			<sound enabled="false"/> 											
+		</skill>
+		<skill>												
+			<type value="morph"/>											
 			<name value="level_adv"/>											
 			<ep-cost value="0"/>											
 			<speed value="500"/>											
@@ -91,7 +101,7 @@
 			<image path="../defense_tower/images/defense_tower.bmp"/>											
 			<unit-requirements/>											
 			<upgrade-requirements/>		
-			<morph-skill value="level_1_towers"/>											
+			<morph-skill value="lvl_1_tank_morph"/>											
 			<morph-unit name= "defense_tower"/>											
 			<discount value="0"/>											
 		</command>
