@@ -81,6 +81,18 @@
 				<field value="air"/>
 				<field value="land"/>
 			</attack-fields>
+			<particles value="true">
+                                <particle-file path="light.xml"/>
+				<!-- particle-file path="snowglobe.xml"-->
+				<particle-file path="freezer_particles1.xml"/>
+				<particle-file path="freezer_particles2.xml"/>
+				<particle-file path="freezer_particles3.xml"/>
+				<particle-file path="freezer_particles4.xml"/>
+				<particle-file path="freezer_particles5.xml"/>
+				<particle-file path="freezer_particles6.xml"/>
+				<particle-file path="freezer_particles7.xml"/>
+				<particle-file path="freezer_particles8.xml"/>
+			</particles>
 			<projectile value="false" />
 			<splash value="false" />
 			<attack-boost>

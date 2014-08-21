@@ -17,6 +17,8 @@
 		<unit name="builder" amount="0"/>
                 <unit name="cowtapult" amount="0"/>
 		<unit name="defense_tower" amount="0"/>
+		<unit name="freezer" amount="0"/>
+
 	</starting-units>
 
 	<music value="true" path="music/revenge_assault.ogg"/>

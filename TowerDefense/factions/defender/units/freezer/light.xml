@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
-    	<texture value="true" path="images/freeze_particle.bmp" luminance="true"/>
+    	<texture value="true" path="images/particle.bmp" luminance="true"/>
 	<primitive value="quad"/>
-	<offset x="0" y="2" z="0.0"/>
+	<offset x="0" y="2.9" z="0.1"/>
 	<direction x="0" y="0" z="0"/>
-	<color red="0.0" green="0.0" blue="1.0" alpha="0.6" />
-	<color-no-energy red="0.0" green="0.0" blue="1.0" alpha="0.6" />
+	<color red="1" green="1" blue="1" alpha="1" />
+	<color-no-energy red="1" green="1" blue="1" alpha="1" />
     	<radius value="0" />
-    	<size value="0.5" />
-    	<size-no-energy value="0.5" />
+    	<size value="1" />
+    	<size-no-energy value="1" />
     	<speed value="0" />
 		<gravity value="0"/>
     	<emission-rate value="1" />
