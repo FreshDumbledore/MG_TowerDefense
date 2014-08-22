@@ -79,7 +79,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/pump1.g3d" />
+			<animation path="models/hwq_die.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />

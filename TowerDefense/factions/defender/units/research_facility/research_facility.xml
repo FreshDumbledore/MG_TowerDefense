@@ -59,7 +59,7 @@
 			<ep-cost value="0" />
 			<speed value="10" />
 			<anim-speed value="100" />
-			<animation path="models/res_sit.g3d" />
+			<animation path="models/res_die.g3d" />
 			<sound enabled="false" />
 		</skill>
 
