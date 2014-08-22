@@ -5,14 +5,14 @@
 	<primitive value="quad"/>
 	<offset x="0" y="2.5" z="1.5"/>
 	<direction x="0.0" y="0.0001" z="2.2"/>
-	<color red="1.0" green="1.0" blue="1.0" alpha="0.8" />
+	<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
 	<color-no-energy red="0.4" green="0.6" blue="0.8" alpha="0.0" />
     	<radius value="0.4" />
     	<size value="0.5" />
     	<size-no-energy value="3.0" />
     	<speed value="5" />
 	<gravity value="0.0"/>
-    	<emission-rate value="4" />
+    	<emission-rate value="2" />
     	<energy-max value="40" />
     	<energy-var value="20" />
 	<relative value="true" />
