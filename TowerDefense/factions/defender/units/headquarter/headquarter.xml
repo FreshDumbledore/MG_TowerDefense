@@ -79,44 +79,15 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/hwq_die.g3d" />
-			<sound enabled="false" />
-			<attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="0" />
-				<target value="faction" include-self="true">
-					<unit-type name="build_supply" />
-				</target>
-				<max-hp value="0" regeneration="-10000" />
-				<particles value="false"/>
-			</attack-boost>
-		</skill>
-
-		<skill>
-			<type value="stop" />
-			<name value="stop_turn"/>		
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="100" />
 			<animation path="models/hwq_sit.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="999" />
-				<target value="faction" include-self="false">
-					<unit-type name="worker" />
-					<unit-type name="builder" />
+				<radius value="1" />
+				<target value="faction" include-self="true">
+					<unit-type name="headquarter" />
 				</target>
-				<max-hp value="0" regeneration="-10000" value-percent-multipler="false" />
-				<particles value="false"/>
-			</attack-boost>
-			<attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="999" />
-				<target value="faction" include-self="false">
-					<unit-type name="laser_turret" />
-				</target>
-				<max-hp value="0" regeneration="10000"  value-percent-multipler="false" />
+				<max-hp value="0" regeneration="-10000" />
 				<particles value="false"/>
 			</attack-boost>
 		</skill>
@@ -125,7 +96,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="350"/>
 			<anim-speed value="350"/>
 			<animation path="models/hwq_sit.g3d"/>
 			<sound enabled="false" />
@@ -140,7 +111,7 @@
 			<projectile value="false" />
 			<splash value="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>		

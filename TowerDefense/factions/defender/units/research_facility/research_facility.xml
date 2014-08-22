@@ -57,9 +57,9 @@
 			<type value="stop" />
 			<name value="stop_skill"/>		
 			<ep-cost value="0" />
-			<speed value="10" />
+			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/res_die.g3d" />
+			<animation path="models/res_sit.g3d" />
 			<sound enabled="false" />
 		</skill>
 
@@ -69,17 +69,37 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/pump1.g3d" />
+			<animation path="models/res_sit.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="0" />
 				<target value="faction" include-self="true">
-					<unit-type name="build_supply" />
+					<unit-type name="research_facility" />
 				</target>
 				<max-hp value="0" regeneration="-10000" />
 				<particles value="false"/>
 			</attack-boost>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="250"/>
+			<anim-speed value="350"/>
+			<animation path="models/res_sit.g3d"/>
+			<sound enabled="false" />
+		        <attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="1"/>
+			<attack-type value="defender"/>
+			<attack-start-time value="0.1"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="false" />
+			<splash value="false" />
 		</skill>
 		
 		<skill>
