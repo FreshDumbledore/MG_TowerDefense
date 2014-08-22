@@ -122,8 +122,8 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0" />
 			<speed value="30" />
-			<anim-speed value="30" />
-			<animation path="models/freezer.g3d" />
+			<anim-speed value="60" />
+			<animation path="models/freezer_die.g3d" />
 			<particles value="false"/>
 			<sound enabled="false"/>
 			<fade value="false"/>
