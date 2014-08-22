@@ -55,13 +55,22 @@
 		</skill>
 
 		<skill>
-			<type value="stop"/>
+			<type value="stop" />
 			<name value="stop_destruct"/>		
-			<ep-cost value="0"/>
-			<speed value="300"/>
-			<anim-speed value="100"/>
-			<animation path="models/freezer.g3d"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/freezer_die.g3d" />
 			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0" />
+				<target value="faction" include-self="true">
+					<unit-type name="freezer" />
+				</target>
+				<max-hp value="0" regeneration="-10000" />
+				<particles value="false"/>
+			</attack-boost>
 		</skill>
 
 		<skill>
@@ -82,7 +91,6 @@
 				<field value="land"/>
 			</attack-fields>
 			<particles value="true">
-                                <particle-file path="light.xml"/>
 				<!-- particle-file path="snowglobe.xml"-->
 				<particle-file path="freezer_particles1.xml"/>
 				<particle-file path="freezer_particles2.xml"/>
