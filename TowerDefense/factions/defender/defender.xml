@@ -13,7 +13,7 @@
 		<unit name="freezer" amount="0"/>
 		<unit name="flamethrower" amount="0"/>
 		<unit name="ultimate_tower" amount="0"/>
-		<unit name="research_facility" amount="1"/>
+		<unit name="research_facility" amount="0"/>
 		<unit name="builder" amount="0"/>
                 <unit name="cowtapult" amount="0"/>
 		<unit name="defense_tower" amount="0"/>
