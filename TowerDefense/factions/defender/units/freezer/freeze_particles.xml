@@ -17,6 +17,6 @@
     	<fixed value="true" />
     	<relative value="true" />
 		<static-particle-count value="1" />
-    	<teamcolorNoEnergy value="true" />
-    	<teamcolorEnergy value="true" />
+    	<teamcolorNoEnergy value="false" />
+    	<teamcolorEnergy value="false" />
 </unit-particle-system>
