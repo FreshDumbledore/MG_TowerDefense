@@ -80,7 +80,9 @@
 			<speed value="250"/>
 			<anim-speed value="350"/>
 			<animation path="models/freezer.g3d"/>
-			<sound enabled="false" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/freezer-fire.ogg"/>
+			</sound>
 		        <attack-strenght value="0"/>
 			<attack-var value="0"/>
 			<attack-range value="10"/>
