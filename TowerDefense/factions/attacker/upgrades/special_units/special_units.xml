@@ -6,7 +6,6 @@
 	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements>
-		<upgrade name="ranged_units"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="wood" amount="100"/>

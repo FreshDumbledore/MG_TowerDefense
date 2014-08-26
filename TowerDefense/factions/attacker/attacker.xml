@@ -29,7 +29,6 @@
 			<unit name="build_mechanics" minimum="3"/>
 		</building-units>
 		<upgrades>
-			<upgrade name="ranged_units"/>
 			<upgrade name="mechanic_units"/>
 		</upgrades>
 	</ai-behavior>

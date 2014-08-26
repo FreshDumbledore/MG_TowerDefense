@@ -104,16 +104,6 @@
 	<commands>
 		<command>
 			<type value="upgrade"/>
-			<name value="research_ranged_units"/>
-			<image path="../../upgrades/ranged_units/images/advanced_architecture.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="ranged_units"/>
-		</command>
-		
-		<command>
-			<type value="upgrade"/>
 			<name value="research_nonhuman_units"/>
 			<image path="../../upgrades/nonhuman_units/images/advanced_architecture.bmp"/>
 			<unit-requirements />
