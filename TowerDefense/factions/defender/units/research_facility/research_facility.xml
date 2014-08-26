@@ -180,6 +180,16 @@
 			<produced-upgrade name="level_4_towers"/>
 		</command>
 
+		<command>
+			<type value="upgrade"/>
+			<name value="research_end_the_game" />
+			<image path="../../upgrades/end_the_game/images/advanced_architecture.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="end_the_game"/>
+		</command>
+
 		<command>				
 			<type value="attack_stopped"/>			
 			<name value="self_destruction"/>			
