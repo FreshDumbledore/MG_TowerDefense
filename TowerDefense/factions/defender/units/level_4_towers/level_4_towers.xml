@@ -42,7 +42,7 @@
 			<ep-cost value="0" />
 			<speed value="100"/>
 			<anim-speed value="100" />
-			<animation path="models/q.g3d" />
+			<animation path="models/morph_pod.g3d" />
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -51,7 +51,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/q.g3d" />
+			<animation path="models/morph_pod.g3d" />
 			<sound enabled="false" />
 		</skill>	
 		<skill>
@@ -60,7 +60,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/q.g3d" />
+			<animation path="models/morph_pod.g3d" />
 			<sound enabled="false"/>		
 			<fade value="true"/>
 		</skill>
@@ -70,7 +70,7 @@
 			<ep-cost value="0"/>											
 			<speed value="800"/>											
 			<anim-speed value="10"/>											
-			<animation path="models/q.g3d"/>											
+			<animation path="models/morph_pod.g3d"/>											
 			<sound enabled="false"/> 											
 		</skill>
 		<skill>												
@@ -79,7 +79,7 @@
 			<ep-cost value="0"/>											
 			<speed value="10"/>											
 			<anim-speed value="500"/>											
-			<animation path="models/q.g3d"/>											
+			<animation path="models/morph_pod.g3d"/>											
 			<sound enabled="false"/> 											
 		</skill>
 
