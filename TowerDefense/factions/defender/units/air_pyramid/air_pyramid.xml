@@ -49,7 +49,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
-			<animation path="models/air_pyramid.g3d"/>
+			<animation path="models/lvl1antiair.g3d"/>
 			<sound enabled="false"/>
 		</skill>
  
@@ -58,8 +58,8 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="220"/>
-			<anim-speed value="150"/>
-			<animation path="models/air_pyramid.g3d"/>
+			<anim-speed value="250"/>
+			<animation path="models/lvl1antiair.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -69,7 +69,7 @@
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
-			<animation path="models/air_pyramid_attacking.g3d"/>
+			<animation path="models/lvl1antiair-attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
@@ -105,7 +105,7 @@
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
-			<animation path="models/air_pyramid_destroyed.g3d"/>
+			<animation path="models/lvl1antiair.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die2.wav"/>
@@ -120,7 +120,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="0" />
-			<animation path="models/air_pyramid_construction.g3d" />
+			<animation path="models/lvl1antiair.g3d" />
 			<sound enabled="false" />
 		</skill>
 
@@ -141,7 +141,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/air_pyramid_destroyed.g3d" />
+			<animation path="models/lvl1antiair.g3d" />
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />

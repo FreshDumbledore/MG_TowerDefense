@@ -17,8 +17,8 @@
 		<unit name="builder" amount="0"/>
                 <unit name="cowtapult" amount="0"/>
 		<unit name="defense_tower" amount="0"/>
-		<unit name="level_4_towers" amount="1"/>
-
+		<unit name="level_4_towers" amount="0"/>
+		<unit name="air_pyramid" amount="0"/>
 	</starting-units>
 
 	<music value="true" path="music/revenge_assault.ogg"/>
