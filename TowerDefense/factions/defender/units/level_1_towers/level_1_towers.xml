@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="3" />
+		<size value="3"/>
 		<height value="2" />
 		<max-hp value="20" regeneration="0"/>
 		<max-ep value="0" />
@@ -66,20 +66,11 @@
 			<type value="morph"/>											
 			<name value="level_1_towers"/>											
 			<ep-cost value="0"/>											
-			<speed value="205"/>											
-			<anim-speed value="10"/>											
+			<speed value="100"/>											
+			<anim-speed value="100"/>											
 			<animation path="models/morph_pod.g3d"/>											
-			<sound enabled="false"/> 											
-		</skill>
-		<skill>												
-			<type value="morph"/>											
-			<name value="lvl_1_tank_morph"/>											
-			<ep-cost value="0"/>											
-			<speed value="205"/>											
-			<anim-speed value="10"/>
-			<anim-progress-bound value="true"/>											
-			<animation path="../defense_tower/models/defense_tower_morph.g3d"/>											
-			<sound enabled="false"/> 											
+			<sound enabled="false"/> 
+			<particles value="false"/>					
 		</skill>
 		<skill>												
 			<type value="morph"/>											
@@ -101,7 +92,7 @@
 			<image path="../defense_tower/images/defense_tower.bmp"/>											
 			<unit-requirements/>											
 			<upgrade-requirements/>		
-			<morph-skill value="lvl_1_tank_morph"/>											
+			<morph-skill value="level_1_towers"/>											
 			<morph-unit name= "defense_tower"/>											
 			<discount value="0"/>											
 		</command>

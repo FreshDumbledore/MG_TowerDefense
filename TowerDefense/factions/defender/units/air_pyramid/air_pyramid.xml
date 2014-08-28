@@ -5,7 +5,7 @@
 	<!-- *** parameters *** -->
 
 	<parameters>
-		<size value="2"/>
+		<size value="3"/>
 		<height value="3"/>
 		<max-hp value="3000" regeneration="1"/>
 		<max-ep value="0"/>
