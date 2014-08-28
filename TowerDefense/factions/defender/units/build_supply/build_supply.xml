@@ -12,10 +12,7 @@
 		<sight value="1" />
 		<time value="20" />
 		<multi-selection value="false" />
-		<cellmap value="true">
-			<row value="11"/>
-			<row value="11"/>
-		</cellmap>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />

@@ -9,14 +9,9 @@
 		<armor value="30"/>	
 		<armor-type value="building"/>			
 		<sight value="16"/>
-		<time value="220"/>	
+		<time value="1"/>
 		<multi-selection value="true"/>
-		<cellmap value="true">
-			<row value="0110"/>
-			<row value="0110"/>
-			<row value="0110"/>
-			<row value="0110"/>
-		</cellmap>
+		<cellmap value="false"/>
 		<levels/>	
 		<fields>
 			<field value="land"/>
