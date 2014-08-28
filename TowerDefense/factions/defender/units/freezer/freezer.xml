@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="2" />
+		<size value="3"/>
 		<height value="1" />
 		<max-hp value="2000" regeneration="0"/>
 		<max-ep value="400" regeneration="20"/>
@@ -10,12 +10,9 @@
 		<armor value="20" />
 		<armor-type value="building"/>				
 		<sight value="16" />
-		<time value="20" />
+		<time value="1"/>
 		<multi-selection value="false" />
-		<cellmap value="true">
-			<row value="11"/>
-			<row value="11"/>
-		</cellmap>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />

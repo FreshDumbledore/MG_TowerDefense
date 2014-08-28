@@ -106,11 +106,7 @@
 					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit2.wav"/>
 				</sound>
 			</projectile>
-			<splash value="true">
-				<radius value="2"/>
-				<damage-all value="false"/>
-				<particle value="true" path="particle_splash.xml"/>
-			</splash>
+			<splash value="false"/>
 		</skill>
 
 		<skill>

@@ -2,7 +2,7 @@
 
 <unit>
 	<parameters>
-		<size value="6"/>
+		<size value="3"/>
 		<height value="10"/>
 		<max-hp value="18000" regeneration="0"/>
 		<max-ep value="1" regeneration="0"/>
