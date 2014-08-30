@@ -153,6 +153,25 @@
 				<particles value="false"/>
 			</attack-boost>
 		</skill>
+
+		<skill>
+			<type value="produce" />
+			<name value="produce_repair"/>		
+			<ep-cost value="0" />
+			<speed value="900" />
+			<anim-speed value="300" />
+			<animation path="models/lvl1antiair.g3d" />
+			<sound enabled="false" />
+			<attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0" />
+				<target value="faction" include-self="true">
+					<unit-type name="air_pyramid" />
+				</target>
+				<max-hp value="0" regeneration="500" />
+				<particles value="false"/>
+			</attack-boost>
+		</skill>
 		
 
 	</skills>
@@ -208,6 +227,16 @@
 			<morph-skill value="morph"/>											
 			<morph-unit name= "level_1_towers"/>											
 			<discount value="0"/>											
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="repair_500_hp" />
+			<image path="../../icons/repair.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_repair"/>
+			<produced-unit name="repair"/>
 		</command>
 		
 	</commands>
