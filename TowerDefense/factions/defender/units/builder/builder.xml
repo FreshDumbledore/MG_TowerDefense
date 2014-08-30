@@ -192,27 +192,11 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
-			<repaired-units>
-				<unit name="air_pyramid"/>
-				<unit name="asparenium"/>	
+			<repaired-units>				
 				<unit name="build_supply"/>	
-				<unit name="death_ray_turret"/>	
-				<unit name="defense_tower"/>	
-				<unit name="defense_cannon"/>	
-				<unit name="freezer"/>	
 				<unit name="end_the_game"/>
-				<unit name="eagle_pillar"/>
-				<unit name="earth_serpent"/>
-				<unit name="flamethrower"/>
-                                <unit name="guard_tower"/>	
-                                <unit name="laser_turret"/>
-                                <unit name="mistletree"/>
-                                <unit name="cowtapult"/>
-                                <unit name="obelisk"/>			
-				<unit name="sphinx"/>	
+				<unit name="freezer"/>			
 				<unit name="research_facility"/>	
-				<unit name="totem"/>
-				<unit name="ultimate_tower"/>	
 				<unit name="headquarter"/>
 				<unit name="level_1_towers"/>
 				<unit name="level_2_towers"/>
