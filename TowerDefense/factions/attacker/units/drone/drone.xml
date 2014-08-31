@@ -10,6 +10,7 @@
 		<armor-type value="unit"/>
 		<sight value="15"/>
 		<time value="200"/>	
+		<max-unit-count value="2"/>
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
