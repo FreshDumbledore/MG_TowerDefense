@@ -40,6 +40,9 @@
 			<sound path="sounds/click2.wav" />
 			<sound path="sounds/click1.wav" />
 		</command-sounds>
+		<damage-particles value="true">
+			<particle-file path="warning.xml"/>
+		</damage-particles>
 	</parameters>
 	
 	<!-- *** skills *** -->

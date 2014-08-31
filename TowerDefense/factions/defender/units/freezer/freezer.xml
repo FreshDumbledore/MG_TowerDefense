@@ -36,6 +36,9 @@
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
 		<command-sounds enabled="false"/>
+		<damage-particles value="true">
+			<particle-file path="warning.xml"/>
+		</damage-particles>
 	</parameters>
 	
 	<!-- *** skills *** -->

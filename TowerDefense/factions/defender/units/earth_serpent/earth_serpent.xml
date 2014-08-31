@@ -37,6 +37,9 @@
 		</selection-sounds>
 		<command-sounds enabled="false">
 		</command-sounds>
+		<damage-particles value="true">
+			<particle-file path="warning.xml"/>
+		</damage-particles>
 	</parameters>
 
 	<skills>

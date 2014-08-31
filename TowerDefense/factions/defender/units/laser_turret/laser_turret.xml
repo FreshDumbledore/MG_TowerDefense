@@ -17,7 +17,6 @@
 			<field value="land"/>
 		</fields>	
 		<properties>
-			<property value="burnable"/>
 		</properties>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -38,6 +37,9 @@
 		<command-sounds enabled="true">
 			<sound path="sounds/mars_click.wav"/>
 		</command-sounds>
+		<damage-particles value="true">
+			<particle-file path="warning.xml"/>
+		</damage-particles>
 	</parameters>
 
 	<skills>

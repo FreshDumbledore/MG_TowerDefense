@@ -17,7 +17,7 @@
 			<field value="land" />
 		</fields>
 		<properties>
-			<property value="burnable"/>
+			
 		</properties>
 		<light enabled="false"/>
 		<unit-requirements />
@@ -38,6 +38,9 @@
 			<sound path="sounds/sel.wav" />
 		</selection-sounds>
 		<command-sounds enabled="false"/>
+		<damage-particles value="true">
+			<particle-file path="warning.xml"/>
+		</damage-particles>
 	</parameters>
 	
 	<!-- *** skills *** -->
