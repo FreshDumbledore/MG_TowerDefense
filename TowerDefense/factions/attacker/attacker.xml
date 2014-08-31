@@ -12,6 +12,7 @@
 		<unit name="castle" amount="1"/>
 		<unit name="thrall" amount="12"/>
 		<unit name="flyingvalkyrie" amount="0"/>
+		<unit name="drone" amount="2"/>
 	</starting-units>
 	<music value="true" path="music/pirates_sword_fight.ogg"/>
 	<ai-behavior>
