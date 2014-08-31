@@ -82,7 +82,11 @@
 			<speed value="500"/>											
 			<anim-speed value="10"/>											
 			<animation path="models/morph_pod.g3d"/>											
-			<sound enabled="false"/> 											
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="particle.xml"/>
+				<particle-file path="particle2.xml"/>
+			</particles>	 											
 		</skill>
 
 	</skills>
