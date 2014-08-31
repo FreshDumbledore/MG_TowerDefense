@@ -21,7 +21,7 @@
 		<unit name="air_pyramid" amount="0"/>
 		<unit name="level_1_towers" amount="0"/>
 		<unit name="laser_turret" amount="0"/>
-		<unit name="guard_tower" amount="3"/>
+		<unit name="guard_tower" amount="0"/>
 	</starting-units>
 
 	<music value="true" path="music/revenge_assault.ogg"/>
