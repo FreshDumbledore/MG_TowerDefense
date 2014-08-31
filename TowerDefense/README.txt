@@ -23,6 +23,8 @@ Laser_Turret		Sci-Fi-Pack
 Lou_Lu			East vs. Mega
 Stachel			Prax
 Lou_Lu			Wang Lou
+Drone			SiR0 from blendswap => http://www.blendswap.com/user/SiR0
+Ultimate Tower		torglut from blendswap => http://www.blendswap.com/user/torglut
 
 MORE CREDITS
 Also thanks to everyone in irc.freenode.net #megaglest-lobby and #megaglest channel who helped testing or replied to questions and helped on problems with blender or megaglest, especially alket, atze and filux
