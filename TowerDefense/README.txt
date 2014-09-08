@@ -31,3 +31,13 @@ Also thanks to everyone in irc.freenode.net #megaglest-lobby and #megaglest chan
 
 PATCHNOTES
 See https://forum.megaglest.org/index.php?topic=9506.0 for latest Patchnotes and Releases
+
+MUSIC
+
+Pirates Sword Fight by Gregoire Lourme
+ http://www.jamendo.com/en/track/973246/pirates-sword-fight-action 
+ for attackers
+
+Revenge Assault by Gregoire Lourme
+http://www.jamendo.com/en/track/1010823/revenge-assault
+for defenders
