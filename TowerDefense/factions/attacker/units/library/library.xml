@@ -151,5 +151,15 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="raise_all_armor_i"/>
 		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="raise_all_armor_ii" />
+			<image path="../../upgrades/raise_all_armor_ii/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="raise_all_armor_ii"/>
+		</command>
 	</commands>
 </unit>
