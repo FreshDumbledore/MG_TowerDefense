@@ -30,9 +30,6 @@
 		<unit name="axe_indian"/>
 		<unit name="ballista"/>
 		<unit name="battle_machine"/>
-		<unit name="build_flying"/>
-		<unit name="build_melee"/>
-		<unit name="build_ranged"/>
 		<unit name="bull"/>
 		<unit name="catapult"/>
 		<unit name="cudgel_lady"/>

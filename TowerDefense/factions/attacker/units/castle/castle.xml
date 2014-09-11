@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="5" />
+		<size value="6" />
 		<height value="6" />
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="300" regeneration="1" />
@@ -12,11 +12,12 @@
 		<time value="300" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="11011"/>
-			<row value="11011"/>
-			<row value="00000"/>
-			<row value="11011"/>
-			<row value="11011"/>
+			<row value="000000"/>
+			<row value="000000"/>
+			<row value="001100"/>
+			<row value="001100"/>
+			<row value="000000"/>
+			<row value="000000"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -58,7 +59,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/castle.g3d" />
+			<animation path="models/castle_2.g3d" />
 			<sound enabled="false" />
 		</skill>
 		
@@ -78,7 +79,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/castle.g3d" />
+			<animation path="models/castle_2.g3d" />
 			<sound enabled="false" />
 		</skill>
 
@@ -89,7 +90,7 @@
 			<ep-cost value="300" />
 			<speed value="100" />
 			<anim-speed value="100" />
-			<animation path="models/castle.g3d" />
+			<animation path="models/castle_2.g3d" />
 			<sound enabled="false" />
 		</skill>	
 	
