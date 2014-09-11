@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/shield2.bmp"/>
+	<image-cancel path="../icons/cancel.bmp"/>
+	<time value="600"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="gold" amount="250"/>
+		<resource name="wood" amount="250"/>
+	</resource-requirements>
+	<effects>
+		<unit name="archer"/>
+		<unit name="axe_thrower"/>
+		<unit name="battleaxe"/>
+		<unit name="brontosaurus"/>
+		<unit name="crossbow"/>
+		<unit name="drone"/>
+		<unit name="fire_archer"/>
+		<unit name="flyingvalkyrie"/>
+		<unit name="horseman"/>
+		<unit name="norse_archer"/>
+		<unit name="roman_archer"/>
+		<unit name="swordman"/>
+		<unit name="thrall"/>
+		<unit name="triceratops"/>
+		<unit name="tyrannosaurus_rex"/>
+		<unit name="war_machine"/>
+		<unit name="axe_indian"/>
+		<unit name="ballista"/>
+		<unit name="battle_machine"/>
+		<unit name="build_flying"/>
+		<unit name="build_melee"/>
+		<unit name="build_ranged"/>
+		<unit name="bull"/>
+		<unit name="catapult"/>
+		<unit name="cudgel_lady"/>
+		<unit name="elephant"/>
+		<unit name="firegolem"/>
+		<unit name="gladiator"/>
+		<unit name="ibis"/>
+		<unit name="mad_cow"/>
+		<unit name="parasaurolophus"/>
+		<unit name="roman_fire_archer"/>
+		<unit name="stickfighter"/>
+		<unit name="thor"/>
+		<unit name="thunderbird"/>
+		<unit name="turtle_formation"/>
+		<unit name="valkyrie"/>
+		<unit name="wild_sow"/>
+	</effects>
+	<max-hp value="0"/>
+	<max-ep value="0"/>
+	<sight value="0"/>
+	<attack-strenght value="0"/>
+	<attack-range value="0"/>
+	<armor value="10"/>
+	<move-speed value="0"/>
+	<production-speed value="0"/>
+</upgrade>
