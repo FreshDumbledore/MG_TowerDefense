@@ -84,12 +84,22 @@
 		</skill>
 
 		<skill>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="stop_buff_armor"/>
 			<ep-cost value="100"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/drone.g3d"/>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="8"/>
+			<attack-type value="attacker"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
 			<particles value="true">
 				<particle-file path="jet1.xml"/>
 				<particle-file path="jet2.xml"/>
@@ -106,12 +116,22 @@
 		</skill>
 
 		<skill>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="stop_buff_dmg"/>
 			<ep-cost value="100"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/drone.g3d"/>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="8"/>
+			<attack-type value="attacker"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
 			<particles value="true">
 				<particle-file path="jet1.xml"/>
 				<particle-file path="jet2.xml"/>
@@ -128,12 +148,22 @@
 		</skill>
 
 		<skill>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="stop_buff_range"/>
 			<ep-cost value="100"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/drone.g3d"/>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="8"/>
+			<attack-type value="attacker"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
 			<particles value="true">
 				<particle-file path="jet1.xml"/>
 				<particle-file path="jet2.xml"/>
@@ -150,12 +180,22 @@
 		</skill>
 
 		<skill>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="stop_buff_hp"/>
 			<ep-cost value="100"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/drone.g3d"/>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="8"/>
+			<attack-type value="attacker"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
 			<particles value="true">
 				<particle-file path="jet1.xml"/>
 				<particle-file path="jet2.xml"/>
@@ -232,39 +272,43 @@
 		</command>
 
 		<command>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="plus_100_armor"/>
 			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<stop-skill value="stop_buff_armor"/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="stop_buff_armor"/>
 		</command>
 
 		<command>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="plus_400_hp"/>
 			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<stop-skill value="stop_buff_hp"/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="stop_buff_hp"/>
 		</command>
 
 		<command>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="plus_60_dmg"/>
 			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<stop-skill value="stop_buff_dmg"/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="stop_buff_dmg"/>
 		</command>
 
 		<command>
-			<type value="stop"/>
+			<type value="attack"/>
 			<name value="plus_4_range"/>
 			<image path="../../icons/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<stop-skill value="stop_buff_dmg"/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="stop_buff_range"/>
 		</command>
 
 	</commands>
