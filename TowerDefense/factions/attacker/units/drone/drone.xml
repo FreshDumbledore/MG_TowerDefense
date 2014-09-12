@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="1"/>
 		<max-hp value="1300" regeneration="3"/>
-		<max-ep value="1000" regeneration="5"/>
+		<max-ep value="200" regeneration="1"/>
 		<armor value="20"/>	
 		<armor-type value="unit"/>
 		<sight value="15"/>

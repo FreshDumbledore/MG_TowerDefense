@@ -154,12 +154,52 @@
 
                 <command>
 			<type value="upgrade" />
-			<name value="raise_all_armor_ii" />
-			<image path="../../upgrades/raise_all_armor_ii/images/shield2.bmp" />
+			<name value="raise_all_armor_i_i" />
+			<image path="../../upgrades/raise_all_armor_i_i/images/shield2.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="raise_all_armor_ii"/>
+			<produced-upgrade name="raise_all_armor_i_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="raise_all_armor_i_i_i" />
+			<image path="../../upgrades/raise_all_armor_i_i_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="raise_all_armor_i_i_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="raise_all_damage_i" />
+			<image path="../../upgrades/raise_all_damage_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="raise_all_damage_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="raise_all_damage_i_i" />
+			<image path="../../upgrades/raise_all_damage_i_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="raise_all_damage_i_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="raise_all_damage_i_i_i" />
+			<image path="../../upgrades/raise_all_damage_i_i_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="raise_all_damage_i_i_i"/>
 		</command>
 	</commands>
 </unit>

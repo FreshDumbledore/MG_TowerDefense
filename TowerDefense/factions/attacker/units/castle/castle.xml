@@ -92,6 +92,16 @@
 			<anim-speed value="100" />
 			<animation path="models/castle_2.g3d" />
 			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/castle_2.g3d" />
+			<sound enabled="false" />
 		</skill>	
 	
 		<skill>
@@ -144,6 +154,36 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="drone"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="improve_drones_i" />
+			<image path="../../upgrades/improve_drones_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="improve_drones_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="improve_drones_i_i" />
+			<image path="../../upgrades/improve_drones_i_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="improve_drones_i_i"/>
+		</command>
+
+                <command>
+			<type value="upgrade" />
+			<name value="improve_drones_i_i_i" />
+			<image path="../../upgrades/improve_drones_i_i_i/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="improve_drones_i_i_i"/>
 		</command>
 
 
