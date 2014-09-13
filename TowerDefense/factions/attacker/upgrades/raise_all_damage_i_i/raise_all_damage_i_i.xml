@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/shield2.bmp"/>
 	<image-cancel path="../icons/cancel.bmp"/>
-	<time value="400"/>
+	<time value="1"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
