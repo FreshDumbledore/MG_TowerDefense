@@ -41,6 +41,7 @@
 			<resource name="wood" amount="200" />
 			<resource name="stone" amount="200" />
 			<resource name="adv_research" amount="2" />
+			<resource name="more_research" amount="2" />
 		</resources-stored>
 		<image path="images/library.bmp"/>
 		<image-cancel path="../../icons/cancel.bmp"/>
