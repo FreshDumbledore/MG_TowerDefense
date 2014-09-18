@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="800"/>
+		<resource name="wood" amount="400"/>	
+		<resource name="stone" amount="400"/>	
+		<resource name="option_point" amount="2"/>
+		<resource name="adv_research" amount="0"/>		
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="thrall" amount="12"/>
+		<unit name="flyingvalkyrie" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/pirates_sword_fight.ogg"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="thrall" minimum="9"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="fire_archer" minimum="9"/>
+			<unit name="ballista" minimum="3"/>
+			<unit name="catapult" minimum="3"/>
+		</warrior-units>
+		<building-units>
+			<unit name="library" minimum="1"/>
+			<unit name="build_melee" minimum="1"/>
+			<unit name="build_ranged" minimum="1"/>
+			<unit name="build_mechanics" minimum="3"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="mechanic_units"/>
+		</upgrades>
+	</ai-behavior>
+</faction>
+
+

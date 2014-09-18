@@ -7,7 +7,7 @@
 		<resource name="stone" amount="1000"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="headquarter" amount="1"/>
+		<unit name="headquarter" amount="2"/>
 		<unit name="worker" amount="3"/>
 		<unit name="scout" amount="1"/>
 		<unit name="freezer" amount="0"/>

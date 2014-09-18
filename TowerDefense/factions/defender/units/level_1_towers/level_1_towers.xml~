@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="3"/>
+		<height value="2" />
+		<max-hp value="20" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="building"/>				
+		<sight value="5" />
+		<time value="1"/>
+		<multi-selection value="false" />
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties/>
+		<light enabled="false" />
+		<unit-requirements/>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="10"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/level_1_towers.bmp"/>
+		<image-cancel path="../../icons/cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="false"/>
+		<command-sounds enabled="false"/>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+		<!-- *** skill 0 *** -->
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="100"/>
+			<anim-speed value="100" />
+			<animation path="models/morph_pod.g3d" />
+			<sound enabled="false"/>
+		</skill>
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/morph_pod.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/morph_pod.g3d" />
+			<sound enabled="false"/>		
+			<fade value="true"/>
+		</skill>
+		<skill>												
+			<type value="morph"/>											
+			<name value="level_1_towers"/>											
+			<ep-cost value="0"/>											
+			<speed value="100"/>											
+			<anim-speed value="100"/>											
+			<animation path="models/morph_pod.g3d"/>											
+			<sound enabled="false"/> 
+			<particles value="true">
+				<particle-file path="particle.xml"/>
+				<particle-file path="particle2.xml"/>
+			</particles>					
+		</skill>
+		<skill>												
+			<type value="morph"/>											
+			<name value="level_adv"/>											
+			<ep-cost value="0"/>											
+			<speed value="500"/>											
+			<anim-speed value="10"/>											
+			<animation path="models/morph_pod.g3d"/>											
+			<sound enabled="false"/> 											
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<command>												
+			<type value="morph"/>											
+			<name value="lvl_1_tank"/>											
+			<image path="../defense_tower/images/defense_tower.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>		
+			<morph-skill value="level_1_towers"/>											
+			<morph-unit name= "defense_tower"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="lvl_1_damage"/>											
+			<image path="../laser_turret/images/defense_tower.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>		
+			<morph-skill value="level_1_towers"/>											
+			<morph-unit name= "laser_turret"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="lvl_1_splash"/>											
+			<image path="../cowtapult/images/farm.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>		
+			<morph-skill value="level_1_towers"/>											
+			<morph-unit name= "cowtapult"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="lvl_1_antiair"/>											
+			<image path="../air_pyramid/images/air_pyramid.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>		
+			<morph-skill value="level_1_towers"/>											
+			<morph-unit name= "air_pyramid"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="level_2_towers"/>											
+			<image path="../level_2_towers/images/level_2_towers.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>		
+			<morph-skill value="level_adv"/>											
+			<morph-unit name= "level_2_towers"/>											
+			<discount value="0"/>											
+		</command>
+
+   	</commands>
+</unit>
