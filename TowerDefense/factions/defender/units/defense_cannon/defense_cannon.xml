@@ -175,6 +175,16 @@
 			</attack-boost>
 		</skill>
 		
+		<skill>												
+			<type value="morph"/>											
+			<name value="morph"/>											
+			<ep-cost value="0"/>											
+			<speed value="500"/>											
+			<anim-speed value="200"/>											
+			<animation path="models/cannon.g3d"/>											
+			<sound enabled="false"/> 											
+		</skill>
+		
 	</skills>
 	
 			
@@ -228,10 +238,27 @@
 			<produce-skill value="produce_repair"/>
 			<produced-unit name="repair"/>
 		</command>
-				
-						
-						
-						
+		
+		<command>												
+			<type value="morph"/>											
+			<name value="upgrade_to_level_4_splash"/>											
+			<image path="../sphinx/images/sphinx.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>						
+			<morph-skill value="morph"/>											
+			<morph-unit name="sphinx"/>											
+			<discount value="0"/>											
+		</command>
+		<command>												
+			<type value="morph"/>											
+			<name value="back_to_tower_selection"/>											
+			<image path="../level_3_towers/images/level_3_towers.bmp"/>											
+			<unit-requirements/>											
+			<upgrade-requirements/>					
+			<morph-skill value="morph"/>											
+			<morph-unit name= "level_3_towers"/>											
+			<discount value="0"/>											
+		</command>
 	</commands>	
 	
 </unit>
