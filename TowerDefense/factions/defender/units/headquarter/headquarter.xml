@@ -50,6 +50,11 @@
 		<damage-particles value="true">
 			<particle-file path="warning.xml"/>
 		</damage-particles>
+                <resources-death>
+                        <resource name="wood" amount-percentage="40" loss-percentage="40"/>
+                        <resource name="gold" amount-percentage="40" loss-percentage="40"/>
+                        <resource name="stone" amount-percentage="40" loss-percentage="40"/>
+                </resources-death>
 	</parameters>
 	
 	<!-- *** skills *** -->

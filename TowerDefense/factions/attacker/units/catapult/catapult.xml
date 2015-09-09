@@ -48,7 +48,9 @@
 			<sound path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>					
 		</command-sounds>
-
+                <resources-death>
+                        <resource name="wood" amount-percentage="40" loss-percentage="40" allow-negative="true"/>
+                </resources-death>
 	</parameters>
 
 	<skills>

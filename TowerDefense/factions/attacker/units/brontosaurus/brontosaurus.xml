@@ -41,6 +41,9 @@
 			<sound path="$COMMONDATAPATH/sounds/sel3.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/sel4.wav"/>
 		</command-sounds>
+                <resources-death>
+                        <resource name="stone" amount-percentage="40" loss-percentage="40" allow-negative="true"/>
+                </resources-death>
 	</parameters>
 
 	<skills>

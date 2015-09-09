@@ -49,6 +49,11 @@
 		<command-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
+                <resources-death>
+                        <resource name="wood" amount-percentage="40" loss-percentage="40"/>
+                        <resource name="gold" amount-percentage="40" loss-percentage="40"/>
+                        <resource name="stone" amount-percentage="40" loss-percentage="40"/>
+                </resources-death>
 	</parameters>
 	
 	<skills>

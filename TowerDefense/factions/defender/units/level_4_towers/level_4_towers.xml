@@ -30,7 +30,7 @@
 		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
-		<command-sounds enabled="false"/>
+		<command-sounds enabled="false"/>z
 	</parameters>
 	
 	<!-- *** skills *** -->

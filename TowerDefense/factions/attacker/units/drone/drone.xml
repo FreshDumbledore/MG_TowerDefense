@@ -64,7 +64,11 @@
 			<sound path="$COMMONDATAPATH/sounds/horseman_ack14.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/horseman_ack15.wav"/>						
 		</command-sounds>
-
+                <resources-death>
+                        <resource name="wood" amount-percentage="5" loss-percentage="1"/>
+                        <resource name="gold" amount-percentage="5" loss-percentage="1"/>
+                        <resource name="stone" amount-percentage="5" loss-percentage="1"/>
+                </resources-death>
 	</parameters>
 
 	<skills>

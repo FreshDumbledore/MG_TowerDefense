@@ -43,7 +43,9 @@
 		<command-sounds enabled="true">
 			<sound path="../horseman/sounds/horseman_ack1.wav"/>
 		</command-sounds>
-
+                <resources-death>
+                        <resource name="gold" amount-percentage="40" loss-percentage="40" allow-negative="true"/>
+                </resources-death>
 	</parameters>
 
 
